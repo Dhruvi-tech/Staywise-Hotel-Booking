@@ -1,0 +1,2260 @@
+[
+  {
+    "id": "hotel-1",
+    "name": "Taj Exotica Resort & Spa, Goa",
+    "location": "Goa",
+    "address": "Calwaddo, Benaulim Beach, South Goa 403716",
+    "tagline": "Mediterranean-inspired beachfront oasis set in 56 acres of lush gardens",
+    "description": "Spread across 56 acres of manicured greenery, Taj Exotica features pristine private beach access, an Olympic-length swimming pool, holistic Jiva Spa therapies, and open-air beachfront fine dining.",
+    "price": 8500,
+    "rating": 4.9,
+    "reviewsCount": 520,
+    "images": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Luxury Sea View Villa",
+    "featured": true
+  },
+  {
+    "id": "hotel-2",
+    "name": "W Goa, Vagator",
+    "location": "Goa",
+    "address": "Vagator Beach, Bardez, North Goa 403509",
+    "tagline": "Ultra-stylish cliffside retreat overlooking the golden sands of Vagator",
+    "description": "Perched over the Arabian Sea, W Goa offers chic chalets, the iconic Rock Pool venue, subterranean Spa by CLARINS, vibrant nightlife lounges, and direct beach trail access.",
+    "price": 9200,
+    "rating": 4.8,
+    "reviewsCount": 460,
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Marvelous Ocean Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-3",
+    "name": "Alila Diwa Goa",
+    "location": "Goa",
+    "address": "48/10 Village Majorda, Adao, Salcete, South Goa 403713",
+    "tagline": "Eco-luxury sanctuary nestled amidst endless emerald paddy fields",
+    "description": "Designed with indigenous Goan teak architecture and overlooking tranquil paddy fields, Alila Diwa boasts an infinity pool that merges seamlessly with the horizon.",
+    "price": 6800,
+    "rating": 4.7,
+    "reviewsCount": 390,
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning"
+    ],
+    "roomType": "Diwa Club Terrace Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-4",
+    "name": "Caravela Beach Resort",
+    "location": "Goa",
+    "address": "Varca Beach, Salcete, South Goa 403721",
+    "tagline": "Tranquil beachfront resort surrounded by pristine coconut groves",
+    "description": "Located on powdery white sands of Varca Beach, Caravela offers an 83-foot high atrium lobby, 9-hole golf greens, island bar, and beachfront sun loungers.",
+    "price": 5200,
+    "rating": 4.6,
+    "reviewsCount": 310,
+    "images": [
+      "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Deluxe Pool View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-5",
+    "name": "Cidade de Goa — IHCL SeleQtions",
+    "location": "Goa",
+    "address": "Vainguinim Beach, Panaji, Goa 403004",
+    "tagline": "Vibrant Portuguese village architecture overlooking Vainguinim Bay",
+    "description": "Designed by renowned architect Charles Correa, Cidade de Goa blends Portuguese murals, cascading courtyards, secluded beach cove access, and coastal seafood grills.",
+    "price": 6400,
+    "rating": 4.7,
+    "reviewsCount": 285,
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning"
+    ],
+    "roomType": "Heritage Premium Bay Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-6",
+    "name": "Planet Hollywood Beach Resort",
+    "location": "Goa",
+    "address": "30/3, Assequem Uttorda Beach, Salcete, Goa 403713",
+    "tagline": "Contemporary Hollywood-themed luxury with sprawling oceanfront lawns",
+    "description": "Featuring chic modern architecture, custom memorabilia, private cabana cocktail service, and direct access to pristine Uttorda Beach sands.",
+    "price": 5800,
+    "rating": 4.5,
+    "reviewsCount": 240,
+    "images": [
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Supreme Garden View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-7",
+    "name": "ITC Grand Goa Resort & Spa",
+    "location": "Goa",
+    "address": "Arossim Beach, Cansaulim, South Goa 403712",
+    "tagline": "Village-styled luxury with interconnected multi-level lagoon pools",
+    "description": "Spread over 45 acres of manicured gardens, featuring an expansive multi-tiered pool, ancient banyan trees, and direct boardwalk to untouched Arossim Beach.",
+    "price": 7900,
+    "rating": 4.8,
+    "reviewsCount": 410,
+    "images": [
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Lagoon View Balcony Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-8",
+    "name": "The Postcard Velha, Old Goa",
+    "location": "Goa",
+    "address": "D-69/4, Before Gandhi Circle, Old Goa 403402",
+    "tagline": "Intimate colonial hilltop hideaway nestled in historic coconut groves",
+    "description": "An exclusive modern boutique estate with only 8 private suites, bespoke zero-rules check-ins, artisanal Konkan dining, and hilltop forest views.",
+    "price": 8800,
+    "rating": 4.9,
+    "reviewsCount": 165,
+    "images": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1574643156929-51fa098b0394?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571770095004-6b61b1cf308a?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Spa",
+      "Air Conditioning"
+    ],
+    "roomType": "Banyan Luxury Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-9",
+    "name": "Heritage Village Resort & Spa Goa",
+    "location": "Goa",
+    "address": "Arossim Beach Road, Cansaulim, Goa 403712",
+    "tagline": "Authentic colonial Portuguese boutique resort with all-inclusive options",
+    "description": "Step into colonial Portuguese charm with clay-tiled courtyards, Ayurveda wellness center, poolside live music, and warm Goan hospitality.",
+    "price": 4300,
+    "rating": 4.5,
+    "reviewsCount": 310,
+    "images": [
+      "https://images.unsplash.com/photo-1561501900-3701fa6a0864?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Portuguese Villa Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-10",
+    "name": "Whispering Palms Beach Resort",
+    "location": "Goa",
+    "address": "Sinquerim Beach, Candolim, North Goa 403515",
+    "tagline": "Tropical coastal paradise near historic Fort Aguada lighthouse",
+    "description": "Nestled in Candolim's golden coastline, featuring lush gardens, open-air cabanas, multi-cuisine terrace dining, and evening cultural performances.",
+    "price": 4800,
+    "rating": 4.6,
+    "reviewsCount": 380,
+    "images": [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Palm Garden Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-11",
+    "name": "The Himalayan, Manali",
+    "location": "Manali",
+    "address": "Hadimba Temple Road, Siyal, Manali, Himachal Pradesh 175131",
+    "tagline": "Victorian Gothic castle set amidst apple orchards and snow peaks",
+    "description": "Built in premier Victorian Gothic style with castle stone turrets, antique fireplaces, circular turrets, apple orchards, and panoramic Pir Panjal mountain views.",
+    "price": 7200,
+    "rating": 4.9,
+    "reviewsCount": 370,
+    "images": [
+      "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Gym"
+    ],
+    "roomType": "Castle Premier Chamber",
+    "featured": true
+  },
+  {
+    "id": "hotel-12",
+    "name": "Span Resort and Spa",
+    "location": "Manali",
+    "address": "Baragran, Kullu-Manali Highway, Himachal Pradesh 175129",
+    "tagline": "Legendary luxury riverside estate on the banks of gushing Beas River",
+    "description": "Operating on the tranquil riverbanks since 1981, Span Resort offers private riverfront helipad, cedar wood cottages, trout angling, and heated outdoor pools.",
+    "price": 8900,
+    "rating": 4.8,
+    "reviewsCount": 420,
+    "images": [
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Gym"
+    ],
+    "roomType": "Riverside Cottage Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-13",
+    "name": "Apple Country Resorts",
+    "location": "Manali",
+    "address": "Log Huts Area, Old Manali, Himachal Pradesh 175131",
+    "tagline": "Secluded cliffside mountain haven atop the highest point in Manali",
+    "description": "Nestled high in the secluded Log Huts region, offering breathtaking 360-degree snow peak vistas, apple orchard gardens, and cedar wood aromatics.",
+    "price": 4800,
+    "rating": 4.6,
+    "reviewsCount": 310,
+    "images": [
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking",
+      "Spa"
+    ],
+    "roomType": "Deluxe Mountain View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-14",
+    "name": "Solang Valley Resort",
+    "location": "Manali",
+    "address": "Solang Valley, Palchan, Manali, Himachal Pradesh 175131",
+    "tagline": "Alpine sports and snowy wilderness right outside your private balcony",
+    "description": "Located directly in snow-blessed Solang Valley, offering heated timber rooms, outdoor bonfires, paragliding access, and riverside dining.",
+    "price": 6100,
+    "rating": 4.7,
+    "reviewsCount": 290,
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking",
+      "Spa",
+      "Gym"
+    ],
+    "roomType": "Valley View Glacier Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-15",
+    "name": "Larisa Mountain Resort",
+    "location": "Manali",
+    "address": "Haripur, Kullu-Manali Highway, Himachal Pradesh 175136",
+    "tagline": "Scandinavian-inspired stone cottages amidst apple & plum orchards",
+    "description": "An idyllic rural escape crafted from river stones and local deodar wood. Features organic farm-to-table cuisine, infinity pool, and mountain herb spas.",
+    "price": 7500,
+    "rating": 4.8,
+    "reviewsCount": 245,
+    "images": [
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa"
+    ],
+    "roomType": "Orchard Jacuzzi Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-16",
+    "name": "Manuallaya — The Resort Spa in the Himalayas",
+    "location": "Manali",
+    "address": "Sunny Side, Chadiyari, Manali, Himachal Pradesh 175131",
+    "tagline": "Panoramic 9-acre sanctuary overlooking snow-capped Rohtang Pass peaks",
+    "description": "Spread over 9 terraced acres, Manuallaya features an indoor all-weather temperature-controlled pool, Turkish bath, and multi-cuisine restaurants.",
+    "price": 6400,
+    "rating": 4.7,
+    "reviewsCount": 380,
+    "images": [
+      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Gym"
+    ],
+    "roomType": "Royal Himalayan Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-17",
+    "name": "ShivAdya Resort & Spa",
+    "location": "Manali",
+    "address": "Village Karjan, Naggar Road, Manali, Himachal Pradesh 175136",
+    "tagline": "Handcrafted boutique stone and wood lodge reflecting Himachali soul",
+    "description": "Each of the 15 rooms is custom-built with stones and timber showcasing traditional Himachali architecture, surrounded by deodar forests.",
+    "price": 5400,
+    "rating": 4.8,
+    "reviewsCount": 195,
+    "images": [
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking",
+      "Spa"
+    ],
+    "roomType": "Handcrafted Timber Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-18",
+    "name": "Banon Resorts, Manali",
+    "location": "Manali",
+    "address": "New Hope Orchard, Club House Road, Manali 175131",
+    "tagline": "Generations of Himalayan hospitality amidst ancient apple groves",
+    "description": "Established by the legendary Banon family, this heritage mountain retreat overlooks Old Manali, featuring wooden floors, open fire pits, and library.",
+    "price": 4300,
+    "rating": 4.5,
+    "reviewsCount": 260,
+    "images": [
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking",
+      "Spa"
+    ],
+    "roomType": "Heritage Pine Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-19",
+    "name": "Snow Valley Resorts",
+    "location": "Manali",
+    "address": "Log Huts Area, Manali, Himachal Pradesh 175131",
+    "tagline": "Surrounded by pine forest whisperings with grand snow-ridge panoramas",
+    "description": "Featuring marble bathrooms, bay windows looking out over pine valleys, game rooms, rooftop terrace cafe, and quick access to mall road.",
+    "price": 3600,
+    "rating": 4.4,
+    "reviewsCount": 420,
+    "images": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking"
+    ],
+    "roomType": "Orchard View Classic Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-20",
+    "name": "Whistling Pines Resort",
+    "location": "Manali",
+    "address": "Naggar Highway, Shuru, Manali, Himachal Pradesh 175131",
+    "tagline": "Serene alpine escape tucked in fragrant cedar groves above Beas River",
+    "description": "Enjoy peaceful mountain mornings with morning songbirds, wooden decks overlooking apple blossoms, multi-cuisine dining, and valley views.",
+    "price": 3200,
+    "rating": 4.3,
+    "reviewsCount": 190,
+    "images": [
+      "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking"
+    ],
+    "roomType": "Cedar Deluxe Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-21",
+    "name": "Rambagh Palace, Jaipur",
+    "location": "Jaipur",
+    "address": "Bhawani Singh Road, Jaipur, Rajasthan 302005",
+    "tagline": "The Jewel of Jaipur — Former official royal residence of the Maharaja",
+    "description": "Widely acclaimed as the finest palace hotel on earth. Extravagant marble corridors, ornamental gardens, peacock-filled courtyards, and signature royal butler service.",
+    "price": 11500,
+    "rating": 5,
+    "reviewsCount": 650,
+    "images": [
+      "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Palace Historical Chamber",
+    "featured": true
+  },
+  {
+    "id": "hotel-22",
+    "name": "The Oberoi Rajvilas, Jaipur",
+    "location": "Jaipur",
+    "address": "Goner Road, Jagatpura, Jaipur, Rajasthan 302031",
+    "tagline": "32-acre fort-styled royal resort with private sunlit plunge pools",
+    "description": "Built around an authentic 280-year-old Shiva temple, featuring royal luxury tents with teakwood floors, sunken marble tubs, and cascading reflection pools.",
+    "price": 10800,
+    "rating": 4.9,
+    "reviewsCount": 510,
+    "images": [
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Premier Royal Pavillion",
+    "featured": false
+  },
+  {
+    "id": "hotel-23",
+    "name": "Jai Mahal Palace, Jaipur",
+    "location": "Jaipur",
+    "address": "Jacob Road, Civil Lines, Jaipur, Rajasthan 302006",
+    "tagline": "18-acre Mughal palace gardens dating back to 1745 AD",
+    "description": "A masterclass in Indo-Saracenic architecture, featuring 275-year-old manicured gardens, life-size outdoor chessboards, and authentic Rajasthani thali dining.",
+    "price": 7800,
+    "rating": 4.8,
+    "reviewsCount": 430,
+    "images": [
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning"
+    ],
+    "roomType": "Luxury Heritage Palace Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-24",
+    "name": "Samode Haveli, Old Jaipur",
+    "location": "Jaipur",
+    "address": "Near Jorawar Singh Gate, Gangapole, Jaipur 302002",
+    "tagline": "Hand-painted 175-year-old royal townhouse steeped in royal intrigue",
+    "description": "An authentic noble mansion converted into an exquisite heritage retreat. Features intricate wall frescoes, secluded pool courtyards, and hand-painted arches.",
+    "price": 6500,
+    "rating": 4.8,
+    "reviewsCount": 310,
+    "images": [
+      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1506059612708-99d6c258160e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning"
+    ],
+    "roomType": "Haveli Deluxe Heritage Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-25",
+    "name": "ITC Rajputana, A Luxury Collection Hotel",
+    "location": "Jaipur",
+    "address": "Palace Road, Gopalbari, Jaipur, Rajasthan 302006",
+    "tagline": "Red-brick royal haveli design mirroring traditional Rajput fortresses",
+    "description": "Step into traditional stepwell-inspired courtyards, marble water channels, live Rajasthani folk musicians, and world-class Peshawri tandoor cuisine.",
+    "price": 5900,
+    "rating": 4.7,
+    "reviewsCount": 460,
+    "images": [
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Rajputana Royal Club Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-26",
+    "name": "Alsisar Haveli, Heritage Hotel",
+    "location": "Jaipur",
+    "address": "Sansar Chandra Road, Jayanti Market, Jaipur 302001",
+    "tagline": "Intricate Shekhawati frescoes and brass-fitted royal suites",
+    "description": "Dating back to 1892, this restored haveli displays sunken pool courtyards, carved pillars, four-poster beds, and antique Rajput weaponry galleries.",
+    "price": 4600,
+    "rating": 4.6,
+    "reviewsCount": 320,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Shekhawati Heritage Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-27",
+    "name": "Fairmont Jaipur, Kukas",
+    "location": "Jaipur",
+    "address": "2, RIICO, Kukas, Jaipur, Rajasthan 302028",
+    "tagline": "Grand modern fortress palace framed by the rugged Aravalli hills",
+    "description": "A monumental palace hotel honoring Mughal and Rajput royalty. Features custom perfume bars, falconry demonstrations, and authentic Rajasthani dining.",
+    "price": 8400,
+    "rating": 4.8,
+    "reviewsCount": 490,
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Fairmont Palace Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-28",
+    "name": "Hotel Diggi Palace, Jaipur",
+    "location": "Jaipur",
+    "address": "Shivaji Marg, C-Scheme, Jaipur, Rajasthan 302004",
+    "tagline": "Celebrated home of the world-famous Jaipur Literature Festival",
+    "description": "Nestled in peaceful central Jaipur, this charming 1860s haveli is surrounded by sprawling lawns, strolling peacocks, and vintage courtyards.",
+    "price": 3900,
+    "rating": 4.5,
+    "reviewsCount": 380,
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1506059612708-99d6c258160e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1585123334904-845d60e97b29?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Palace Courtyard Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-29",
+    "name": "Hotel Narain Niwas Palace",
+    "location": "Jaipur",
+    "address": "Kanota Bagh, Narain Singh Road, Jaipur 302004",
+    "tagline": "Anglo-Indian palace retreat home to the famous Bar Palladio",
+    "description": "Built in 1928, Narain Niwas features Anglo-Indian styling, lush gardens, vintage car collections, and the iconic electric-blue Bar Palladio.",
+    "price": 5200,
+    "rating": 4.7,
+    "reviewsCount": 295,
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Heritage Kanota Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-30",
+    "name": "Shahpura Haveli, Jaipur Heritage",
+    "location": "Jaipur",
+    "address": "Shahpura House, Devi Marg, Bani Park, Jaipur 302016",
+    "tagline": "Traditional Rajput family estate with gilded dome chandeliers",
+    "description": "Marvel at carved marble balconies, traditional mirror-work (Thikri) ceilings, rooftop puppet performances, and warm royal Rajput hospitality.",
+    "price": 3600,
+    "rating": 4.4,
+    "reviewsCount": 210,
+    "images": [
+      "https://images.unsplash.com/photo-1506059612708-99d6c258160e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Royal Traditional Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-31",
+    "name": "Taj Lake Palace, Udaipur",
+    "location": "Udaipur",
+    "address": "Pichola, Udaipur, Rajasthan 313001",
+    "tagline": "Floating 18th-century white marble island palace on Lake Pichola",
+    "description": "Floating like a white jewel on Lake Pichola since 1746. Arrive by private royal boat, dine under starlit lily ponds, and experience royal Mewar butler service.",
+    "price": 12000,
+    "rating": 5,
+    "reviewsCount": 710,
+    "images": [
+      "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Grand Royal Lake View Suite",
+    "featured": true
+  },
+  {
+    "id": "hotel-32",
+    "name": "The Oberoi Udaivilas, Udaipur",
+    "location": "Udaipur",
+    "address": "Badi-Gorela-Mulla Talai Road, Haridas Ji Ki Magri, Udaipur 313001",
+    "tagline": "Voted world's best hotel — 50 acres of palatial domes & moat pools",
+    "description": "Spread over 50 acres on the banks of Lake Pichola. Features private moat swimming pools connected to guest rooms, peacock gardens, and candlelit lake cruises.",
+    "price": 11800,
+    "rating": 5,
+    "reviewsCount": 680,
+    "images": [
+      "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Kohinoor Semi-Private Pool Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-33",
+    "name": "The Leela Palace Udaipur",
+    "location": "Udaipur",
+    "address": "Lake Pichola, Chandpole, Udaipur, Rajasthan 313001",
+    "tagline": "Modern Mewar palace offering uninterrupted views of City Palace",
+    "description": "Every luxury room offers sweeping views across Lake Pichola. Features private boat arrivals, candlelit terraces at Sheesh Mahal, and ESPA wellness tent treatments.",
+    "price": 9800,
+    "rating": 4.9,
+    "reviewsCount": 540,
+    "images": [
+      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Grand Heritage Lake View Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-34",
+    "name": "Fateh Garh Palace, Udaipur",
+    "location": "Udaipur",
+    "address": "Sisarma, Udaipur, Rajasthan 313031",
+    "tagline": "Hilltop heritage retreat perched 300 feet above Lake Pichola valley",
+    "description": "A heritage renaissance sanctuary built entirely from repurposed ancient palace stone. Features dual infinity pools overlooking the entire Udaipur basin.",
+    "price": 6500,
+    "rating": 4.7,
+    "reviewsCount": 310,
+    "images": [
+      "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning"
+    ],
+    "roomType": "Heritage Renaissance Chamber",
+    "featured": false
+  },
+  {
+    "id": "hotel-35",
+    "name": "Shiv Niwas Palace — Grand Heritage",
+    "location": "Udaipur",
+    "address": "City Palace Complex, Udaipur, Rajasthan 313001",
+    "tagline": "Crescent-shaped former royal guesthouse inside the City Palace",
+    "description": "Stay directly inside the historic City Palace complex. Famous for royal suites where kings, queens, and James Bond (Octopussy) once resided.",
+    "price": 7600,
+    "rating": 4.8,
+    "reviewsCount": 380,
+    "images": [
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning"
+    ],
+    "roomType": "Royal Historic Crescent Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-36",
+    "name": "Trident Hotel Udaipur",
+    "location": "Udaipur",
+    "address": "Mulla Talai, Haridas Ji Ki Magri, Udaipur 313001",
+    "tagline": "43 acres of scenic gardens and walking trails on Lake Pichola bank",
+    "description": "Set in 43 acres of private grounds, Trident Udaipur offers a signature kids club, serene lakeside promenade, al fresco dining, and landscaped swimming pools.",
+    "price": 5400,
+    "rating": 4.6,
+    "reviewsCount": 420,
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Deluxe Garden View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-37",
+    "name": "Chunda Palace, Udaipur",
+    "location": "Udaipur",
+    "address": "1, Main Road, Haridas Ji Ki Magri, Udaipur 313001",
+    "tagline": "Magnificent traditional Mewar architecture with hand-painted ceilings",
+    "description": "Every inch of Chunda Palace is adorned with hand-painted Mewar murals, crystal chandeliers, indoor and rooftop pools, and grand lake terraces.",
+    "price": 4900,
+    "rating": 4.6,
+    "reviewsCount": 290,
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Palace Heritage Grand Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-38",
+    "name": "RAAS Devigarh, Delwara",
+    "location": "Udaipur",
+    "address": "NH8, Near Eklingji Temple, Delwara, Udaipur 313202",
+    "tagline": "18th-century Rajput fortress converted into an ultra-chic minimalist sanctuary",
+    "description": "Perched majestically on a hilltop in the Aravalli hills, this converted 18th-century fortress marries rugged stone walls with minimalist marble interiors.",
+    "price": 9400,
+    "rating": 4.9,
+    "reviewsCount": 230,
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Aravalli Hillview Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-39",
+    "name": "Radisson Blu Udaipur Palace Resort & Spa",
+    "location": "Udaipur",
+    "address": "B-1, Ambamata Scheme-A Road, Opp. Aravali Hospital, Udaipur 313001",
+    "tagline": "Lakeside palace retreat overlooking the tranquil waters of Fateh Sagar Lake",
+    "description": "Overlooking Fateh Sagar Lake, featuring a two-tier outdoor cascade pool, luxury spa pavilions, and an open-air rooftop pan-Asian dining deck.",
+    "price": 5100,
+    "rating": 4.5,
+    "reviewsCount": 360,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Superior Lake View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-40",
+    "name": "Jagmandir Island Palace, Lake Pichola",
+    "location": "Udaipur",
+    "address": "Jagmandir Island, Lake Pichola, Udaipur 313001",
+    "tagline": "Private royal island palace floating in the center of Lake Pichola",
+    "description": "The historic pleasure palace built by Maharana Karan Singh. Features royal marble elephants, island suites, and candlelit courtyard dinners.",
+    "price": 10500,
+    "rating": 4.9,
+    "reviewsCount": 220,
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Spa",
+      "Air Conditioning"
+    ],
+    "roomType": "Island Suite of the Maharana",
+    "featured": false
+  },
+  {
+    "id": "hotel-41",
+    "name": "The Leela Palace Bengaluru",
+    "location": "Bangalore",
+    "address": "23, HAL Old Airport Road, Kodihalli, Bengaluru 560008",
+    "tagline": "Grand Art Deco & Royal Vijayanagara palace amid 7 acres of lush gardens",
+    "description": "Inspired by the royal palaces of Mysore, featuring gold-leaf ceilings, waterfall lagoons, hand-woven carpets, and world-renowned dining at Jamavar and Le Cirque.",
+    "price": 9500,
+    "rating": 4.9,
+    "reviewsCount": 580,
+    "images": [
+      "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Royal Premiere Garden Suite",
+    "featured": true
+  },
+  {
+    "id": "hotel-42",
+    "name": "The Oberoi Bengaluru, MG Road",
+    "location": "Bangalore",
+    "address": "37-39, MG Road, Yellappa Garden, Bengaluru 560001",
+    "tagline": "Award-winning urban garden retreat built around a 120-year-old rain tree",
+    "description": "Set in the heart of Bengaluru's central business district, featuring private garden balconies for every room, lotus pond pavilions, and discreet five-star hospitality.",
+    "price": 8800,
+    "rating": 4.9,
+    "reviewsCount": 470,
+    "images": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Executive Garden Balcony Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-43",
+    "name": "ITC Gardenia, A Luxury Collection Hotel",
+    "location": "Bangalore",
+    "address": "1, Residency Road, Shanthala Nagar, Ashok Nagar, Bengaluru 560025",
+    "tagline": "Eco-responsible luxury sanctuary inspired by Bangalore's Garden City soul",
+    "description": "Featuring dramatic open-air wind pavilions, living vertical gardens, helicopter transfer pads, Kaya Kalp spa, and the world-famous Kebabs & Kurries.",
+    "price": 7900,
+    "rating": 4.8,
+    "reviewsCount": 510,
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Towers Garden Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-44",
+    "name": "Taj West End, Bengaluru",
+    "location": "Bangalore",
+    "address": "25, Race Course Road, High Grounds, Bengaluru 560001",
+    "tagline": "Bengaluru's oldest luxury hotel set in 20 acres of heritage botanical flora",
+    "description": "Welcoming world leaders since 1887. Walk along heritage nature trails, play lawn tennis under colonial lampposts, and dine on Vietnamese cuisine at Blue Ginger.",
+    "price": 8200,
+    "rating": 4.8,
+    "reviewsCount": 430,
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Heritage Garden Club Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-45",
+    "name": "JW Marriott Hotel Bengaluru",
+    "location": "Bangalore",
+    "address": "24/1, Vittal Mallya Road, KG Halli, Shanthala Nagar, Bengaluru 560001",
+    "tagline": "Contemporary downtown elegance overlooking scenic Cubbon Park green canopy",
+    "description": "Located on prestigious UB City perimeter with direct views of lush Cubbon Park. Features an outdoor heated swimming pool, Italian trattoria, and upscale spa.",
+    "price": 7400,
+    "rating": 4.7,
+    "reviewsCount": 520,
+    "images": [
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Executive Park View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-46",
+    "name": "Shangri-La Bengaluru",
+    "location": "Bangalore",
+    "address": "No 56-6B, Palace Road, Abshot Layout, Vasanth Nagar, Bengaluru 560052",
+    "tagline": "High-rise Asian luxury with city skyline views from the Hype rooftop lounge",
+    "description": "Soaring high above Bangalore Palace grounds. Features authentic dim sum at Shang Palace, Chi The Spa, and the city's favorite rooftop cocktail terrace.",
+    "price": 6900,
+    "rating": 4.7,
+    "reviewsCount": 460,
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Horizon Club City View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-47",
+    "name": "The Paul Bangalore",
+    "location": "Bangalore",
+    "address": "139/28, Domlur Layout, Krishna Reddy Layout, Amarjyoti Layout, Bengaluru 560071",
+    "tagline": "All-suite luxury boutique property wrapped around a cascading glass atrium",
+    "description": "An exclusive boutique all-suite haven featuring spacious 550 sq.ft suites, Murphy's Irish pub, coastal Syrian Christian cuisine, and outdoor jacuzzi lounges.",
+    "price": 5200,
+    "rating": 4.6,
+    "reviewsCount": 290,
+    "images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Club Royal One-Bedroom Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-48",
+    "name": "Oakwood Premier Prestige Bangalore",
+    "location": "Bangalore",
+    "address": "UB City, 24, Vittal Mallya Road, Bengaluru 560001",
+    "tagline": "Serviced luxury residences integrated inside UB City high-fashion mall",
+    "description": "Enjoy penthouse apartment living with fully fitted kitchens, skyline infinity pool on the 16th floor, and direct access to luxury boutiques and restaurants.",
+    "price": 6100,
+    "rating": 4.7,
+    "reviewsCount": 330,
+    "images": [
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Executive Studio Residence",
+    "featured": false
+  },
+  {
+    "id": "hotel-49",
+    "name": "St. Mark's Hotel, Bengaluru",
+    "location": "Bangalore",
+    "address": "4/1, St Marks Road, Shanthala Nagar, Ashok Nagar, Bengaluru 560001",
+    "tagline": "Boutique business elegance with warm personalized service in central city",
+    "description": "A beloved boutique gem in central Bangalore featuring rooftop terrace garden dining, contemporary executive rooms, and walking access to Brigade Road.",
+    "price": 4200,
+    "rating": 4.5,
+    "reviewsCount": 280,
+    "images": [
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Executive Club Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-50",
+    "name": "The Grand Bengaluru Orchid",
+    "location": "Bangalore",
+    "address": "Airport Road, Yelahanka, Bengaluru, Karnataka 560064",
+    "tagline": "Modern luxury business hotel near Bengaluru International Airport",
+    "description": "Featuring high-tech conference spaces, soundproof glass suites, landscaped botanical courtyards, spa pavilions, and 24-hour global buffet dining.",
+    "price": 4500,
+    "rating": 4.7,
+    "reviewsCount": 310,
+    "images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Deluxe Executive King Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-51",
+    "name": "The Taj Mahal Palace, Mumbai",
+    "location": "Mumbai",
+    "address": "Apollo Bunder, Colaba, Mumbai, Maharashtra 400001",
+    "tagline": "India's iconic heritage hotel facing the Gateway of India since 1903",
+    "description": "Standing proud opposite the Gateway of India. Home to royal Maharajas, dignitaries, and rockstars. Boasts floating Arabian Sea views and 9 world-famous restaurants.",
+    "price": 12500,
+    "rating": 5,
+    "reviewsCount": 820,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Heritage Wing Harbour View Suite",
+    "featured": true
+  },
+  {
+    "id": "hotel-52",
+    "name": "Trident Hotel Nariman Point",
+    "location": "Mumbai",
+    "address": "CR 2 Nariman Point, Netaji Subhash Chandra Bose Road, Mumbai 400021",
+    "tagline": "Front-row seats to Mumbai's famous Queen's Necklace Marine Drive",
+    "description": "Soaring 35 stories above Marine Drive, offering unparalleled panoramas of the Arabian Sea, outdoor swimming pool, and Mediterranean dining at Frangipani.",
+    "price": 8400,
+    "rating": 4.8,
+    "reviewsCount": 560,
+    "images": [
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Marine Drive Ocean View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-53",
+    "name": "The St. Regis Mumbai, Lower Parel",
+    "location": "Mumbai",
+    "address": "462, Senapati Bapat Marg, Lower Parel, Mumbai 400013",
+    "tagline": "India's tallest luxury hotel with legendary St. Regis Butler service",
+    "description": "Located inside the Palladium luxury district, offering elevated infinity pool, champagne sabering rituals, Iridium Spa, and highest rooftop lounge in Mumbai.",
+    "price": 9800,
+    "rating": 4.9,
+    "reviewsCount": 490,
+    "images": [
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "St. Regis Astor Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-54",
+    "name": "JW Marriott Mumbai Juhu",
+    "location": "Mumbai",
+    "address": "Juhu Tara Road, Uditi Tarang Housing Society, Juhu, Mumbai 400049",
+    "tagline": "Celebrity-favorite beachfront resort right on the Arabian Sea sands",
+    "description": "Directly overlooking Juhu Beach with cascading salt-water swimming pools, celebrity spotting at Lotus Cafe, and award-winning Quan Spa therapies.",
+    "price": 8900,
+    "rating": 4.8,
+    "reviewsCount": 540,
+    "images": [
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Juhu Beachfront Premier Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-55",
+    "name": "Soho House Mumbai, Juhu",
+    "location": "Mumbai",
+    "address": "16, Juhu Tara Road, Chandrabai Nagar, Juhu, Mumbai 400049",
+    "tagline": "Exclusive members-club boutique hotel with 11th-floor rooftop pool",
+    "description": "An ultra-chic townhouse on Juhu Beach featuring vintage Indian block-print fabrics, custom bone-inlay furniture, private cinema, and rooftop ocean cocktail deck.",
+    "price": 11000,
+    "rating": 4.9,
+    "reviewsCount": 220,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Sea-Facing Artist Studio",
+    "featured": false
+  },
+  {
+    "id": "hotel-56",
+    "name": "ITC Maratha, Mumbai",
+    "location": "Mumbai",
+    "address": "Sahar Airport Road, Ashok Nagar, Andheri East, Mumbai 400099",
+    "tagline": "Grand Indo-Saracenic palace celebrating Maratha warrior heritage",
+    "description": "Set in lush landscaped grounds near the international airport, featuring classical Maratha stone sculptures, Kaya Kalp spa, and legendary Dum Pukht cuisine.",
+    "price": 7200,
+    "rating": 4.7,
+    "reviewsCount": 450,
+    "images": [
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1568495248636-6432b97bd949?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "ITC One Executive Palace Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-57",
+    "name": "The Oberoi Mumbai, Nariman Point",
+    "location": "Mumbai",
+    "address": "Nariman Point, Marine Drive, Mumbai, Maharashtra 400021",
+    "tagline": "Sleek contemporary luxury with glass atrium & Arabian Sea views",
+    "description": "An architectural marvel featuring an all-white marble atrium, red grand piano, Michelin-starred fine dining at Ziya, and private oceanfront suites.",
+    "price": 10200,
+    "rating": 4.9,
+    "reviewsCount": 410,
+    "images": [
+      "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1568495248636-6432b97bd949?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Luxury Oceanfront Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-58",
+    "name": "Sun-n-Sand Hotel Mumbai, Juhu Beach",
+    "location": "Mumbai",
+    "address": "39, Juhu Beach, Juhu, Mumbai, Maharashtra 400049",
+    "tagline": "Mumbai's first genuine beachfront 5-star hotel dating back to 1962",
+    "description": "Enjoy classic 1960s Mumbai glamour with palm tree pool decks directly facing Juhu's crashing waves, open-air beach cabanas, and vintage sunset bar.",
+    "price": 5900,
+    "rating": 4.6,
+    "reviewsCount": 380,
+    "images": [
+      "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1568495248636-6432b97bd949?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Beachfront Deluxe Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-59",
+    "name": "Grand Hyatt Mumbai Hotel & Residences",
+    "location": "Mumbai",
+    "address": "Bandra Kurla Complex Vicinity, Off Western Express Highway, Santacruz East, Mumbai 400055",
+    "tagline": "Multidimensional 12-acre lifestyle complex featuring over 100 commissioned artworks",
+    "description": "Set in 12 acres of gardens, featuring extensive commissioned contemporary art, outdoor sun decks, gourmet Italian at Celini, and luxury residential suites.",
+    "price": 6800,
+    "rating": 4.7,
+    "reviewsCount": 480,
+    "images": [
+      "https://images.unsplash.com/photo-1568495248636-6432b97bd949?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Grand Club Luxury King Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-60",
+    "name": "Four Seasons Hotel Mumbai, Worli",
+    "location": "Mumbai",
+    "address": "1/136, Dr E Moses Road, Gandhi Nagar, Upper Worli, Worli, Mumbai 400018",
+    "tagline": "Sleek glass high-rise with AER — Mumbai's most iconic 34th-floor open-air bar",
+    "description": "Enjoy panoramic Arabian Sea and Mahalaxmi Racecourse views. Features Ayurvedic spas, Cantonese fine dining at San:Qi, and sunset champagne at AER rooftop lounge.",
+    "price": 9100,
+    "rating": 4.8,
+    "reviewsCount": 390,
+    "images": [
+      "https://images.unsplash.com/photo-1571770095004-6b61b1cf308a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1574643156929-51fa098b0394?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Premier Ocean View High-Floor Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-61",
+    "name": "Sol de Goa Boutique Resort",
+    "location": "Goa",
+    "address": "Road Opposite Church, Bairo Alto, Nerul, North Goa 403114",
+    "tagline": "Portuguese-Goan heritage mansion overlooking quiet backwaters",
+    "description": "Nestled amidst palm groves and river streams, Sol de Goa offers bespoke boutique luxury with a tranquil lap pool, artisan cocktail lounge, and open-air veranda dinners.",
+    "price": 4900,
+    "rating": 4.7,
+    "reviewsCount": 215,
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Heritage Balcony Suite",
+    "featured": true
+  },
+  {
+    "id": "hotel-62",
+    "name": "Cabo Serai Eco Luxury Retreat",
+    "location": "Goa",
+    "address": "Cabo de Rama, Canacona, South Goa 403703",
+    "tagline": "Secluded cliffside luxury cottages amidst raw coastal greenery",
+    "description": "Perched over the cliffs of Cabo de Rama, Cabo Serai features open-front timber cottages, private beach trails, farm-to-table cuisine, and unforgettable sunset vistas.",
+    "price": 8200,
+    "rating": 4.9,
+    "reviewsCount": 168,
+    "images": [
+      "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Spa"
+    ],
+    "roomType": "Cliffside Ocean Cottage",
+    "featured": false
+  },
+  {
+    "id": "hotel-63",
+    "name": "Ahilya by the Sea",
+    "location": "Goa",
+    "address": "Coco Beach, Nerul, Bardez, North Goa 403109",
+    "tagline": "Exclusive seaside sanctuary tucked away in Dolphin Bay",
+    "description": "Surrounded by lush banyan trees and the Arabian Sea, Ahilya offers 3 Portuguese-inspired villas, two sunrise plunge pools, and intimate candlelight coastal dinners.",
+    "price": 9400,
+    "rating": 4.8,
+    "reviewsCount": 142,
+    "images": [
+      "https://images.unsplash.com/photo-1591825729269-caeb344f6df2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Sunrise Sea Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-64",
+    "name": "The Postcard Cavelossim",
+    "location": "Goa",
+    "address": "Cavelossim Beach Road, Salcete, South Goa 403731",
+    "tagline": "Quiet boutique getaway celebrating coastal Goan architecture",
+    "description": "Escape the bustling crowds with artisanal Goan breakfasts available all day, Ayurvedic wellness massages, private sun decks, and serene poolside reading courtyards.",
+    "price": 7600,
+    "rating": 4.8,
+    "reviewsCount": 194,
+    "images": [
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Spa"
+    ],
+    "roomType": "Garden Courtyard Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-65",
+    "name": "The Himalayan Resort & Spa",
+    "location": "Manali",
+    "address": "Hadimba Road, Kullu Valley, Manali 175131",
+    "tagline": "Victorian Gothic style castle amidst towering apple orchards",
+    "description": "Features antique fireplaces, wood-paneled parlors, heated outdoor swimming pool, and uninterrupted panoramas of the snow-crowned Rohtang Pass peaks.",
+    "price": 6800,
+    "rating": 4.8,
+    "reviewsCount": 285,
+    "images": [
+      "https://images.unsplash.com/photo-1529290130-4ca3753254ae?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa",
+      "Gym"
+    ],
+    "roomType": "Castle Premier Chamber",
+    "featured": false
+  },
+  {
+    "id": "hotel-66",
+    "name": "ShivAdya Resort of Himalayas",
+    "location": "Manali",
+    "address": "Village Karjan, Post Office Haripur, Manali 175136",
+    "tagline": "Authentic handcrafted wooden lodge with cedar forest views",
+    "description": "Handcrafted using traditional stone and wood Kath-Kuni architecture. Offers herbal steam baths, organic mountain dining, and panoramic balcony vistas of Pir Panjal peaks.",
+    "price": 4300,
+    "rating": 4.7,
+    "reviewsCount": 172,
+    "images": [
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking",
+      "Spa"
+    ],
+    "roomType": "Pine Valley Deluxe Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-67",
+    "name": "Larisa Resort Manali",
+    "location": "Manali",
+    "address": "Haripur, Kullu-Manali Highway, Manali 175136",
+    "tagline": "Idyllic boutique retreat with private apple orchards and trout pond",
+    "description": "Immerse in nature with open fireplaces, cedar cottage suites, organic greenhouse garden salads, and serene evening bonfire gatherings under starry skies.",
+    "price": 7200,
+    "rating": 4.9,
+    "reviewsCount": 228,
+    "images": [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Spa"
+    ],
+    "roomType": "Orchard Deluxe Suite",
+    "featured": true
+  },
+  {
+    "id": "hotel-68",
+    "name": "Apple Country Resort",
+    "location": "Manali",
+    "address": "Log-Huts Area, Manali, Himachal Pradesh 175131",
+    "tagline": "Elevated mountain retreat perched above the pine canopy",
+    "description": "Overlooking the vibrant Kullu Valley, Apple Country Resort features cedar wood interiors, sauna wellness facilities, Discotheque, and curated Himalayan hiking itineraries.",
+    "price": 3600,
+    "rating": 4.6,
+    "reviewsCount": 310,
+    "images": [
+      "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking",
+      "Spa"
+    ],
+    "roomType": "Mountain View Deluxe",
+    "featured": false
+  },
+  {
+    "id": "hotel-69",
+    "name": "Samode Haveli Heritage Palace",
+    "location": "Jaipur",
+    "address": "Near Jorawar Singh Gate, Gangapole, Jaipur 302002",
+    "tagline": "Historic 175-year-old royal townhouse with mirrored courtyards",
+    "description": "Step into Rajput elegance with hand-painted fresco ceilings, private veranda daybeds, an outdoor mosaic pool, and candlelit sit-down royal banquets.",
+    "price": 8900,
+    "rating": 4.9,
+    "reviewsCount": 340,
+    "images": [
+      "https://images.unsplash.com/photo-1586611292717-f83244c6d74c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Spa"
+    ],
+    "roomType": "Royal Deluxe Haveli Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-70",
+    "name": "Alsisar Haveli Heritage Hotel",
+    "location": "Jaipur",
+    "address": "Sansar Chandra Road, Pink City, Jaipur 302001",
+    "tagline": "Traditional Rajput manor with carved pillars and sunken swimming pool",
+    "description": "Experience authentic Rajasthani hospitality amidst shaded courtyards, fountain gardens, antique four-poster beds, and live evening classical sitar performances.",
+    "price": 4700,
+    "rating": 4.7,
+    "reviewsCount": 295,
+    "images": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Heritage Classic Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-71",
+    "name": "Diggi Palace Heritage Hotel",
+    "location": "Jaipur",
+    "address": "Shivaji Marg, C-Scheme, Jaipur 302004",
+    "tagline": "Sprawling 1860 palace estate famed for literary charm and peacocks",
+    "description": "Famous host of the Jaipur Literature Festival, Diggi Palace boasts manicured gardens where peacocks roam freely, ornate dining halls, and timeless Rajput grace.",
+    "price": 4200,
+    "rating": 4.6,
+    "reviewsCount": 260,
+    "images": [
+      "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Palace Garden Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-72",
+    "name": "Shahpura Haveli Heritage Retreat",
+    "location": "Jaipur",
+    "address": "Amer Road, Near Jal Mahal, Jaipur 302002",
+    "tagline": "Regal retreat showcasing gilded arches and Mewari fresco art",
+    "description": "Overlooking the Aravalli hills, Shahpura Haveli provides royal rooftop dining with views of Nahargarh Fort, a heritage spa, and artisan cocktail bar.",
+    "price": 5400,
+    "rating": 4.7,
+    "reviewsCount": 185,
+    "images": [
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Spa"
+    ],
+    "roomType": "Royal Rajput Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-73",
+    "name": "Fateh Garh Heritage Renaissance",
+    "location": "Udaipur",
+    "address": "Sisarma, Udaipur, Rajasthan 313001",
+    "tagline": "Hilltop palace sanctuary with dramatic infinity pools over Lake Pichola",
+    "description": "Perched high on the western ridge, Fateh Garh offers sweeping 360-degree vistas of Udaipur's lakes, heritage vintage car museum, and royal Rajasthani banquet halls.",
+    "price": 7900,
+    "rating": 4.8,
+    "reviewsCount": 312,
+    "images": [
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Spa"
+    ],
+    "roomType": "Heritage Renaissance Chamber",
+    "featured": true
+  },
+  {
+    "id": "hotel-74",
+    "name": "Chunda Palace Heritage Hotel",
+    "location": "Udaipur",
+    "address": "1 Haridas Ji Ki Magri, Lake Pichola Area, Udaipur 313001",
+    "tagline": "Intricately hand-painted traditional Mewari palace with indoor pool",
+    "description": "Took 16 years to hand-paint the intricate Mewar frescoes adorning this palace. Features rooftop terrace dining with Lake Pichola views and a heated indoor royal pool.",
+    "price": 6500,
+    "rating": 4.7,
+    "reviewsCount": 278,
+    "images": [
+      "https://images.unsplash.com/photo-1549294413-26f195200c16?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Palace View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-75",
+    "name": "Amet Haveli Heritage Hotel",
+    "location": "Udaipur",
+    "address": "Outside Chandpole, Lake Pichola, Udaipur 313001",
+    "tagline": "Waterfront 18th-century haveli directly overlooking the City Palace",
+    "description": "Home to the legendary Ambrai waterfront restaurant, Amet Haveli offers unprecedented open-air dining right on the edge of the sparkling waters of Lake Pichola.",
+    "price": 5800,
+    "rating": 4.8,
+    "reviewsCount": 420,
+    "images": [
+      "https://images.unsplash.com/photo-1521783988139-89397d761dce?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Waterfront Lake Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-76",
+    "name": "Trident Hotel Udaipur",
+    "location": "Udaipur",
+    "address": "Haridas Ji Ki Magri, Mulla Talai, Udaipur 313001",
+    "tagline": "Sprawling 43-acre landscaped garden sanctuary near Lake Pichola",
+    "description": "Set in lush 43 acres of private gardens, Trident Udaipur features kid-friendly activity clubs, international dining at Aravalli restaurant, and an expansive pool deck.",
+    "price": 8100,
+    "rating": 4.8,
+    "reviewsCount": 480,
+    "images": [
+      "https://images.unsplash.com/photo-1565031491910-e57fac031c41?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Spa",
+      "Gym"
+    ],
+    "roomType": "Deluxe Garden View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-77",
+    "name": "The Chancery Pavilion",
+    "location": "Bangalore",
+    "address": "135 Residency Road, Ashok Nagar, Bengaluru 560025",
+    "tagline": "Contemporary 5-star hotel in the heart of the central business district",
+    "description": "Located close to Brigade Road and Cubbon Park, Chancery Pavilion features floor-to-ceiling glass atrium lobbies, a rooftop swimming pool, and Sigma banquet venues.",
+    "price": 4600,
+    "rating": 4.6,
+    "reviewsCount": 380,
+    "images": [
+      "https://images.unsplash.com/photo-1590490359854-dfba19688d70?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Executive Business Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-78",
+    "name": "The Paul Bangalore",
+    "location": "Bangalore",
+    "address": "139/28 Domlur Layout, Embassy Golf Links Road, Bengaluru 560071",
+    "tagline": "All-suite luxury haven boasting private Irish pub Murphy's",
+    "description": "Designed around a sky-lit atrium, The Paul offers massive 900+ sq ft suites, microbrewery craft beer at Murphy's Brewhouse, and gourmet dining at Side Walk.",
+    "price": 7100,
+    "rating": 4.8,
+    "reviewsCount": 295,
+    "images": [
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Gym"
+    ],
+    "roomType": "Studio Luxury Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-79",
+    "name": "Angsana Oasis Resort & Spa",
+    "location": "Bangalore",
+    "address": "Main Doddaballapur Road, Northwest Bengaluru 560064",
+    "tagline": "Serene wellness hideaway surrounded by palm groves and water fountains",
+    "description": "Managed by Banyan Tree Hotels, Angsana offers award-winning holistic wellness therapies, tennis courts, lagoon swimming pools, and restful open-air pavilions.",
+    "price": 6400,
+    "rating": 4.7,
+    "reviewsCount": 220,
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Spa",
+      "Gym"
+    ],
+    "roomType": "Executive Resort Suite",
+    "featured": true
+  },
+  {
+    "id": "hotel-80",
+    "name": "Clarks Exotica Convention Resort",
+    "location": "Bangalore",
+    "address": "Devenahalli Road, Hollywood Town, Bengaluru 562110",
+    "tagline": "Expansive 70-acre resort oasis adjacent to Kempegowda Airport",
+    "description": "Surrounded by lush fruit orchards, Clarks Exotica features a 3-tier slide pool, squash and badminton courts, Seventh Heaven Spa, and airport shuttle access.",
+    "price": 5900,
+    "rating": 4.7,
+    "reviewsCount": 350,
+    "images": [
+      "https://images.unsplash.com/photo-1517840901100-8179e982acb7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Spa",
+      "Gym"
+    ],
+    "roomType": "Club Executive Villa",
+    "featured": false
+  },
+  {
+    "id": "hotel-81",
+    "name": "The Gordon House Hotel",
+    "location": "Mumbai",
+    "address": "5 Battery Street, Apollo Bunder, Colaba, Mumbai 400039",
+    "tagline": "Eclectic themed boutique hotel 2 minutes from Gateway of India",
+    "description": "Step into individually styled Mediterranean, Scandinavian, and Country-themed suites. Famous for Havana Bar, All Stir Fry wok restaurant, and chic Colaba charm.",
+    "price": 5200,
+    "rating": 4.7,
+    "reviewsCount": 330,
+    "images": [
+      "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Scandinavian Theme Suite",
+    "featured": false
+  },
+  {
+    "id": "hotel-82",
+    "name": "Citizen Hotel Juhu Beach",
+    "location": "Mumbai",
+    "address": "960 Juhu Tara Road, Juhu Beach, Mumbai 400049",
+    "tagline": "Beachfront hotel with sunset balconies directly overlooking Juhu sands",
+    "description": "Watch waves roll onto Juhu Beach from your private balcony. Enjoy Arabian Sea breezes, seaside cocktail dining at Bay View Restaurant, and proximity to Bandra.",
+    "price": 4800,
+    "rating": 4.5,
+    "reviewsCount": 290,
+    "images": [
+      "https://images.unsplash.com/photo-1541971875076-8f970d573be6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Sea View Executive Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-83",
+    "name": "Fariyas Hotel Mumbai",
+    "location": "Mumbai",
+    "address": "25 Off Arthur Bunder Road, Colaba, Mumbai 400005",
+    "tagline": "Boutique high-rise with rooftop pool overlooking Colaba harbor",
+    "description": "Located within walking distance of Colaba Causeway and Regal Cinema. Features rooftop swimming pool, Tavern bar, and well-appointed executive city-view rooms.",
+    "price": 5500,
+    "rating": 4.6,
+    "reviewsCount": 275,
+    "images": [
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning"
+    ],
+    "roomType": "Deluxe City View Room",
+    "featured": false
+  },
+  {
+    "id": "hotel-84",
+    "name": "Meluha The Fern An Ecotel",
+    "location": "Mumbai",
+    "address": "Central Avenue, Hiranandani Gardens, Powai, Mumbai 400076",
+    "tagline": "Five-star eco-luxury hotel surrounded by neo-classical Powai towers",
+    "description": "Nestled in upscale Hiranandani Gardens, Meluha offers 5-star sustainable luxury with rooftop pool, Tiara multi-cuisine restaurant, and tranquil Powai Lake surroundings.",
+    "price": 6800,
+    "rating": 4.8,
+    "reviewsCount": 345,
+    "images": [
+      "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": [
+      "Wi-Fi",
+      "Breakfast",
+      "Swimming Pool",
+      "Parking",
+      "Air Conditioning",
+      "Spa",
+      "Gym"
+    ],
+    "roomType": "Fern Club Suite",
+    "featured": false
+  }
+]
