@@ -1,338 +1,312 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b0e,45:3a3220,100:D4AF37&height=250&section=header&text=StayWise&fontSize=84&fontColor=fbf8f2&fontAlignY=36&desc=Bespoke%20Luxury%20Hotel%20Discovery%20%26%20Reservation%20Engine&descSize=22&descAlignY=58&animation=fadeIn" width="100%" alt="StayWise" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b0e,45:3a3220,100:D4AF37&height=170&section=header&animation=twinkling" width="100%" alt="" />
 
-<a href="#-curated-gallery">
-  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=24&duration=3200&pause=900&color=D4AF37&center=true&vCenter=true&width=840&height=50&lines=84+Handcrafted+Luxury+Sanctuaries+Across+7+Indian+Destinations;Live+Stay+Budgeting+%E2%80%94+Exact+Rupee+Formula+%2B+%E2%82%B9500+Fee;Side-by-Side+3-Hotel+Comparison+with+Algorithmic+Best+Value;3-Tier+RBAC%3A+Guest+Traveler%2C+Manager+Staff+Roster+%26+Admin;Real-Time+Dynamic+3-Code+Demo+Verification+(Different+Every+Time);24%2F24+End-to-End+Integration+Test+Cases+Passing" alt="StayWise Highlights" />
+# ✦ StayWise ✦
+
+**Bespoke Luxury Hotel Discovery & Reservation Engine**
+
+<a href="#-feature-suite">
+  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=22&duration=3000&pause=900&color=D4AF37&center=true&vCenter=true&width=820&height=45&lines=84+Handcrafted+Luxury+Sanctuaries+%C2%B7+7+Indian+Destinations;Exact-Rupee+Budgeting+%E2%80%94+Subtotal+%2B+%E2%82%B9500+Flat+Fee;Side-by-Side+3-Hotel+Comparison+%C2%B7+Best+Value+Seal;3-Tier+RBAC%3A+Guest+%C2%B7+Hotel+Manager+%C2%B7+Master+Admin;Dynamic+3-Code+Verification+%E2%80%94+Different+Every+Time;24%2F24+Integration+Tests+Passing" alt="84 hotels · exact-rupee pricing · 3-tier RBAC · 24/24 tests passing" />
 </a>
 
 <br />
 
-<p>
-  <img src="https://img.shields.io/badge/Course-CS3301_Full_Stack_Development-D4AF37?style=for-the-badge&labelColor=18181b" alt="CS3301 Full Stack" />
-  <img src="https://img.shields.io/badge/Evaluation-CIE--3_Project-blue?style=for-the-badge&labelColor=18181b" alt="CIE-3" />
-  <img src="https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=18181b" alt="React 18" />
-  <img src="https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=18181b" alt="Vite 5" />
-  <img src="https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=18181b" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-4.21-ffffff?style=for-the-badge&logo=express&logoColor=white&labelColor=18181b" alt="Express" />
-  <img src="https://img.shields.io/badge/MongoDB-Atlas%20%2F%20Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=18181b" alt="MongoDB Mongoose" />
-  <img src="https://img.shields.io/badge/Auth-JWT%20%2B%20bcryptjs-FF6F00?style=for-the-badge&logo=jsonwebtokens&logoColor=white&labelColor=18181b" alt="JWT Auth" />
-  <img src="https://img.shields.io/badge/Tests-24%2F24_Passing-10b981?style=for-the-badge&logo=jest&logoColor=white&labelColor=18181b" alt="24/24 Tests Passing" />
-</p>
+<img src="https://img.shields.io/badge/Course-CS3301_Full_Stack_Development-D4AF37?style=for-the-badge&labelColor=18181b" alt="CS3301" />
+<img src="https://img.shields.io/badge/Evaluation-CIE--3-blue?style=for-the-badge&labelColor=18181b" alt="CIE-3" />
+<br />
+<img src="https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=18181b" alt="React" />
+<img src="https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=18181b" alt="Vite" />
+<img src="https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=18181b" alt="Node" />
+<img src="https://img.shields.io/badge/Express-4.21-ffffff?style=for-the-badge&logo=express&logoColor=white&labelColor=18181b" alt="Express" />
+<img src="https://img.shields.io/badge/MongoDB-Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=18181b" alt="MongoDB" />
+<img src="https://img.shields.io/badge/Auth-JWT_+_bcryptjs-FF6F00?style=for-the-badge&logo=jsonwebtokens&logoColor=white&labelColor=18181b" alt="JWT" />
+<img src="https://img.shields.io/badge/Tests-24%2F24_Passing-10b981?style=for-the-badge&logo=jest&logoColor=white&labelColor=18181b" alt="Tests" />
 
-<p>
-  <a href="#-project-overview"><b>Overview</b></a> &nbsp;◆&nbsp;
-  <a href="#-core-feature-suite"><b>Core Features</b></a> &nbsp;◆&nbsp;
-  <a href="#-3-tier-role-based-differentiation-rbac"><b>3-Tier RBAC</b></a> &nbsp;◆&nbsp;
-  <a href="#-hotel-manager-portal--staff-records-roster"><b>Manager & Staff Roster</b></a> &nbsp;◆&nbsp;
-  <a href="#-real-time-dynamic-3-code-verification-system"><b>3-Code Verification</b></a> &nbsp;◆&nbsp;
-  <a href="#-mathematical-models--business-logic"><b>Formulas & Logic</b></a> &nbsp;◆&nbsp;
-  <a href="#-rest-api-reference"><b>API Reference</b></a> &nbsp;◆&nbsp;
-  <a href="#-evaluator-quick-start"><b>Quick Start</b></a> &nbsp;◆&nbsp;
-  <a href="#-automated-test-suite-2424-passing"><b>Test Suite</b></a>
-</p>
+<br /><br />
+
+**[Overview](#-project-overview)** &nbsp;◆&nbsp;
+**[Features](#-feature-suite)** &nbsp;◆&nbsp;
+**[RBAC](#-3-tier-role-based-access-control)** &nbsp;◆&nbsp;
+**[Manager Portal](#-hotel-manager-portal--staff-roster)** &nbsp;◆&nbsp;
+**[3-Code Verification](#-dynamic-3-code-verification)** &nbsp;◆&nbsp;
+**[Logic](#-business-logic--formulas)** &nbsp;◆&nbsp;
+**[Architecture](#-architecture)** &nbsp;◆&nbsp;
+**[API](#-rest-api-reference)** &nbsp;◆&nbsp;
+**[Quick Start](#-quick-start)** &nbsp;◆&nbsp;
+**[Tests](#-automated-test-suite)**
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0b0e,50:D4AF37,100:0b0b0e&height=3" width="100%" alt="" />
+---
 
 ## ✦ Project Overview
 
-**StayWise** is an enterprise-grade full-stack hotel booking and comparative analytics platform designed and developed for **CS3301 Full Stack Development (CIE-3)**. It addresses the fragmentation, hidden fees, and rigid user experiences of traditional travel portals by providing:
-
-1. **Complete Full-Stack Architecture**: React 18 Single Page Application (SPA) powered by Vite, an Express 4 RESTful API, and MongoDB managed via Mongoose schemas.
-2. **2026 Editorial Luxury Visual Identity**: Warm alabaster (`#fbf8f2`), obsidian ink (`#0b0b0e`), and champagne gold accents (`#c5a059`) with Playfair Display typography.
-3. **Transparent Rupee Budgeting**: Deterministic price computation with zero hidden surcharges.
-4. **Hospitality Occupancy Guards**: Strict capacity validation ensuring guest safety and compliance.
-5. **Multi-Role Separation**: Tailored portals for **Guest Travelers**, **Hotel Managers** (with dedicated Staff Records management), and **Master Administrators**.
-6. **Dynamic Real-Time Verification**: Unique, randomized 3-code verification allowing instant evaluator role testing.
-
----
-
-## ✦ Feature Highlights at a Glance
+**StayWise** is a full-stack hotel booking and comparison platform built for **CS3301 Full Stack Development (CIE-3)**. It tackles the hidden fees, fragmented search and rigid flows of typical travel portals.
 
 <div align="center">
 
-| 🏛️ Catalog | ⚖️ Comparison | 💰 Pricing Formula | 🛏️ Capacity Guard | 👥 RBAC Roles | 🔐 Verification |
+| 🏛️ Catalog | ⚖️ Compare | 💰 Pricing | 🛏️ Capacity | 👥 Roles | 🔐 Verification |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **84 Curated Hotels** | **3-Property Matrix** | **₹ Exact to Rupee** | **Max 2 + 1 / Room** | **3 Distinct Tiers** | **Dynamic 3 Codes** |
-| 7 Indian Destinations | Best Value Score | Subtotal + ₹500 Fee | 1-Click Auto Upgrade | Guest · Manager · Admin | Different Every Time |
+| **84 Hotels** | **3-Property Matrix** | **Exact to the Rupee** | **2 Adults + 1 Child / Room** | **3 Tiers** | **3 Dynamic Codes** |
+| 7 Indian Destinations | Best Value Seal | Subtotal + ₹500 Fee | 1-Click Auto-Upgrade | Guest · Manager · Admin | New Every Time |
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0b0e,50:D4AF37,100:0b0b0e&height=3" width="100%" alt="" />
+**Design language:** warm alabaster `#fbf8f2` · obsidian ink `#0b0b0e` · champagne gold `#c5a059`, set in *Playfair Display*.
 
-## ✦ Core Feature Suite
+---
 
-### 1. 🔍 Multi-Variable Search & Exploration Catalog
-- **84 Handcrafted Luxury Properties** across 7 iconic destinations: Goa, Jaipur, Udaipur, Kerala, Manali, Mumbai, and Varanasi.
-- **Dynamic Price Slider:** Real-time range filtering from ₹1,000 to ₹12,000 per night with instant hotel counts.
-- **Star Rating Filters:** Fast-filtering tiers for Any, 3.5★+, 4.0★+, 4.5★+, and 4.8★+.
-- **Amenity Checkbox Filters:** Free Wi-Fi, Swimming Pool, Luxury Spa, Ocean / Mountain View, Fine Dining Restaurant, Fitness Center, and Airport Transfers.
-- **Smart Editorial Badges:** Dynamically applied tags including *Best Value*, *Top Rated (4.8+)*, *Heritage Palace*, and *Trending Sanctuary*.
+## ✦ Feature Suite
 
-### 2. ⚖️ 3-Hotel Side-by-Side Comparison Matrix
-- Pin up to 3 hotels in the persistent bottom drawer.
-- Comprehensive side-by-side comparison across nightly price, guest ratings, room types, location, and amenity coverage.
-- **Automated Best Value Algorithm:** Highlights the highest-value property with a gold seal based on price-to-amenity ratio.
+### 🔍 Discovery & Catalog
+- **84 curated properties** across **Goa, Jaipur, Udaipur, Kerala, Manali, Mumbai and Varanasi**
+- **Price slider** ₹1,000 – ₹12,000 per night with live hotel counts
+- **Star tiers:** Any · 3.5★+ · 4.0★+ · 4.5★+ · 4.8★+
+- **Amenity filters:** Wi-Fi, Pool, Spa, Ocean/Mountain View, Fine Dining, Fitness Center, Airport Transfers
+- **Editorial badges:** *Best Value*, *Top Rated (4.8+)*, *Heritage Palace*, *Trending Sanctuary*
 
-### 3. ⏱️ Duration Stepper & Deterministic Rupee Budgeting
-- Replaces confusing departure calendars with intuitive duration increments (*3, 7, 10, 14 nights*).
-- Live sticky cost estimator displaying transparent breakdown:
-  - Base Room Subtotal: $\text{Nightly Rate} \times \text{Nights} \times \text{Rooms}$
-  - Flat Platform & Hospitality Service Fee: **₹500**
-  - **Grand Total:** Exact to the rupee, matching server-side validation.
+### ⚖️ Side-by-Side Comparison
+- Pin up to **3 hotels** in a persistent bottom drawer
+- Compare price, rating, room types, location and amenities
+- **Best Value** gold seal from a transparent scoring formula
 
-### 4. 👥 Strict Room Capacity Enforcement & Auto-Upgrade
-- Standard hospitality occupancy limits enforced: **Maximum 2 adults and 1 child per room**.
-- Real-time frontend warning with a **1-click auto-upgrade button** (`➕ Book N Rooms`) to automatically calculate and set the exact required room count.
-- Independent server-side validation rejecting over-capacity requests with HTTP `400 Bad Request`.
+### 💰 Duration Stepper & Rupee Budgeting
+- Quick duration steps: **3 · 7 · 10 · 14 nights**
+- Sticky live estimator: `Nightly Rate × Nights × Rooms` + flat **₹500** service fee
+- Client estimate and server validation use the **same formula**
 
-### 5. 🎟️ Digital Booking Pass & Verification Portal
-- Instant booking creation with unique reference generation: `SW-BK-XXXXX`.
-- Printable official reservation pass with QR placeholder, hotel contact info, and guest breakdown.
-- **Public Verification Portal (`/verify-booking`):** Allows guests or front-desk staff to input a booking reference and digitally verify authenticity and check-in status.
+### 🛏️ Room Capacity Guard
+- **Max 2 adults and 1 child per room**
+- Live warning with a one-click **`➕ Book N Rooms`** auto-upgrade
+- Server rejects over-capacity requests with `400 Bad Request`
 
-### 6. 📂 Reservation Management & Cancellation Workflow
-- **My Bookings Drawer:** Live reservation history fetched from `/api/bookings/my`.
-- **Modify Reservation:** Update check-in dates, duration, or room count with automatic price re-calculation.
-- **Cancel Reservation:** Requires a mandatory reason from the guest, releases property inventory, and marks status as `cancelled`.
+### 🎟️ Digital Booking Pass
+- Collision-free references: `SW-BK-XXXXX`
+- Printable pass with QR placeholder, hotel contact and guest breakdown
+- Public **`/verify-booking`** portal to check authenticity and status
 
-### 7. 🛡️ Resilience & Fault Tolerance
-- Self-healing React `ErrorBoundary` wraps the entire application, preventing white screens and rendering an editorial error fallback with instant recovery actions.
+### 📂 Reservation Management
+- **My Bookings** drawer with live history
+- **Modify** dates, duration or rooms with automatic re-pricing
+- **Cancel** with a mandatory reason; inventory is released and status becomes `cancelled`
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0b0e,50:D4AF37,100:0b0b0e&height=3" width="100%" alt="" />
+### 🔔 Notifications & ⭐ Verified Reviews
+- Notification bell with unread badge, 30 s polling and mark-all-read; created on booking and cancellation
+- Reviews with rating and comment, **restricted to guests with a confirmed reservation**
+- Recently viewed hotels are recorded to the user profile
 
-## ✦ 3-Tier Role-Based Differentiation (RBAC)
+### 🛡️ Resilience
+- Self-healing React `ErrorBoundary` with an editorial fallback and instant recovery actions
 
-StayWise provides complete privilege isolation across three distinct user roles:
+---
+
+## ✦ 3-Tier Role-Based Access Control
 
 ```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        STAYWISE ROLE-BASED ACCESS CONTROL (RBAC)                       │
-├──────────────────────────┬─────────────────────────────┬───────────────────────────────┤
-│    👤 GUEST TRAVELER     │      🏨 HOTEL MANAGER       │       🛡️ MASTER ADMIN         │
-├──────────────────────────┼─────────────────────────────┼───────────────────────────────┤
-│ • Explore 84 Sanctuaries │ • Dedicated Manager Portal  │ • Master Executive Console    │
-│ • Side-by-Side Compare   │   (/manager)                │   (/admin)                    │
-│ • Real-Time Reservations │ • Staff Records Roster      │ • MongoDB Aggregation Metrics │
-│ • Modify / Cancel Stays  │   (Full CRUD + Shifts)      │ • Hotel Catalog Management    │
-│ • Printable Digital Pass │ • Managed Property Stays    │ • User Role Administration    │
-│ • Review Submission      │ • Property Bookings Stream  │ • Deep Link to Staff Roster   │
-└──────────────────────────┴─────────────────────────────┴───────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│                     STAYWISE ROLE-BASED ACCESS CONTROL (RBAC)                        │
+├──────────────────────────┬─────────────────────────────┬─────────────────────────────┤
+│     👤 GUEST TRAVELER    │      🏨 HOTEL MANAGER       │       🛡️ MASTER ADMIN       │
+├──────────────────────────┼─────────────────────────────┼─────────────────────────────┤
+│ • Explore 84 stays       │ • Manager Portal (/manager) │ • Executive Console (/admin)│
+│ • Side-by-side compare   │ • Staff Roster, full CRUD   │ • MongoDB aggregation KPIs  │
+│ • Live reservations      │ • Shift scheduling          │ • Hotel catalog management  │
+│ • Modify / cancel stays  │ • Managed property stays    │ • User role governance      │
+│ • Printable digital pass │ • Property bookings stream  │ • Deep link to Staff Roster │
+│ • Verified reviews       │                             │                             │
+└──────────────────────────┴─────────────────────────────┴─────────────────────────────┘
 ```
 
----
-
-## ✦ Hotel Manager Portal & Staff Records Roster
-
-The dedicated **Manager Portal (`/manager`)** is designed specifically for hotel operators and supervisors:
-
-### 1. Staff & Personnel Records Roster (CRUD)
-- **Live Personnel Table:** Displays Staff ID, Full Name, Department, Operational Role, Assigned Shift, Hotel Property, Monthly Salary (₹), and Emergency Contact.
-- **Department Taxonomy:**
-  - 🛎️ *Front Desk & Concierge*
-  - 🧹 *Housekeeping & Facilities*
-  - 🍳 *Culinary & Fine Dining*
-  - 🛡️ *Security & Safety*
-  - 💼 *Hotel Operations & Management*
-- **Shift Rostering:** Tracks Morning (06:00–14:00), Evening (14:00–22:00), and Night (22:00–06:00) shifts.
-- **1-Click Status Toggling:** Instantly switch staff between **Active** (`#10b981`) and **On Leave** (`#f59e0b`) with immediate backend persistence.
-- **Staff Search & Filtering:** Filter staff by department tabs or search by name and ID.
-- **Add Staff Modal:** Add new team members with input validation and instant roster refresh.
-- **Pre-Seeded Roster:** Comes pre-populated with 8 professional luxury hotel staff members across top resorts.
-
-### 2. Managed Property Inventory
-- Displays the properties under the manager's jurisdiction with live pricing, room stock, and rating statistics.
-
-### 3. Property Reservations Stream
-- Real-time feed of incoming guest reservations for managed properties, with guest names, check-in dates, and payment totals.
+Enforced on the client with `<ProtectedRoute>` and on the server with the `protect` and `authorizeRoles` middleware.
 
 ---
 
-## ✦ Real-Time Dynamic 3-Code Verification System
+## ✦ Hotel Manager Portal & Staff Roster
 
-To provide evaluators and users with an authentic, zero-friction verification experience, StayWise features an intelligent real-time verification system:
+The **`/manager`** portal is built for hotel operators.
 
-```text
-               [ User Registration or Demo Sign-Up ]
-                                 │
-                                 ▼
-        ┌──────────────────────────────────────────────────┐
-        │  Server Generates 3 Random Distinct 6-Digit Codes│
-        └────────────────────────┬─────────────────────────┘
-                                 │
-       ┌─────────────────────────┼─────────────────────────┐
-       ▼                         ▼                         ▼
- 👤 Guest Code             🏨 Manager Code            🛡️ Admin Code
-(e.g., "473517")          (e.g., "660198")          (e.g., "438445")
-       │                         │                         │
-       ▼                         ▼                         ▼
-Verifies as Guest         Verifies & Promotes       Verifies & Promotes
-Traveler Account          to Hotel Manager          to Master Administrator
+| Capability | Details |
+|:---|:---|
+| **Live personnel table** | Staff ID, name, department, role, shift, property, monthly salary (₹), emergency contact |
+| **Departments** | 🛎️ Front Desk & Concierge · 🧹 Housekeeping & Facilities · 🍳 Culinary & Fine Dining · 🛡️ Security & Safety · 💼 Hotel Operations & Management |
+| **Shift rostering** | Morning `06:00–14:00` · Evening `14:00–22:00` · Night `22:00–06:00` |
+| **1-click status toggle** | **Active** `#10b981` ⇄ **On Leave** `#f59e0b`, persisted instantly |
+| **Search & filter** | Department tabs plus name / ID search |
+| **Add staff modal** | Validated form with instant roster refresh |
+| **Pre-seeded roster** | 8 staff members across top resorts |
+| **Managed inventory** | Live pricing, room stock and ratings for the manager's properties |
+| **Reservations stream** | Incoming bookings with guest names, check-in dates and totals |
+
+---
+
+## ✦ Dynamic 3-Code Verification
+
+Built for **zero-friction evaluation**: every registration (or resend) issues three fresh, distinct 6-digit codes.
+
+```mermaid
+flowchart TD
+    A([Registration or Demo Sign-Up]) --> B[Server generates 3 random<br/>distinct 6-digit codes]
+    B --> C[👤 Guest Code]
+    B --> D[🏨 Manager Code]
+    B --> E[🛡️ Admin Code]
+    C --> F[Verified as Guest Traveler]
+    D --> G[Verified and promoted to Hotel Manager]
+    E --> H[Verified and promoted to Master Admin]
 ```
 
-### Highlights:
-- **Randomized Every Single Time:** Each registration or "Resend Code" request issues 3 brand-new, unique 6-digit codes.
-- **1-Click Auto-Fill Role Cards:** The Step 2 verification screen features high-contrast clickable cards for each code. Clicking a role automatically populates the input.
-- **Direct Role Elevation:**
-  - Submitting the **Guest Code** verifies the account as `guest`.
-  - Submitting the **Manager Code** verifies and elevates the account to `hotel_manager`.
-  - Submitting the **Admin Code** verifies and elevates the account to `admin`.
-- **Unified 6-Digit Input:** Single high-contrast input with `letterSpacing: 0.35em`, avoiding focus-trap bugs of fragmented OTP boxes.
-- **30-Second Cooldown Timer:** Built-in cooldown preventing request spamming while allowing instant code regeneration.
+- 🎲 **Randomized every time**: each registration or *Resend Code* returns three new codes
+- 🖱️ **1-click role cards**: clicking a card auto-fills the input
+- ⬆️ **Direct role elevation** to `guest`, `hotel_manager` or `admin` by the code submitted
+- ⌨️ **Unified input**: one 6-digit field (`letterSpacing: 0.35em`), no fragile OTP boxes
+- ⏳ **30-second cooldown** on resend
+- 🧹 **Codes cleared** after successful verification
 
 ---
 
-## ✦ Mathematical Models & Business Logic
+## ✦ Business Logic & Formulas
 
-### 1. Best Value Scoring Formula
-Balances user satisfaction against nightly rate and amenity count:
-$$\text{Best Value Score} = \left(\frac{\text{Rating}}{\text{Nightly Price}} \times 10{,}000\right) + \text{Amenities Count}$$
+**1 · Best Value Score**
 
-### 2. Deterministic Pricing Model
-Ensures 100% price parity between frontend estimates and backend validation:
+$$\text{Best Value} = \left(\frac{\text{Rating}}{\text{Nightly Price}} \times 10{,}000\right) + \text{Amenities Count}$$
+
+**2 · Deterministic Pricing**
+
 $$\text{Grand Total} = (\text{Nightly Rate} \times \text{Nights} \times \text{Rooms}) + ₹500$$
 
-### 3. Room Occupancy Calculation
-Strictly enforces standard hospitality occupancy (max 2 adults, 1 child per room):
+**3 · Room Occupancy**
+
 $$\text{Required Rooms} = \max\left(1,\ \left\lceil \frac{\text{Adults}}{2} \right\rceil,\ \text{Children},\ \left\lceil \frac{\text{Adults} + \text{Children}}{3} \right\rceil\right)$$
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0b0e,50:D4AF37,100:0b0b0e&height=3" width="100%" alt="" />
+---
+
+## ✦ Architecture
+
+```mermaid
+flowchart LR
+    U([Browser]) --> R[React 18 + Vite SPA]
+    R -- "Axios · Bearer JWT" --> X[Express 4 REST API]
+    X --> M[Auth · RBAC Middleware]
+    M --> C[Controllers<br/>auth · hotel · booking · staff · admin · review]
+    C --> D[(MongoDB via Mongoose)]
+```
+
+| Layer | Stack |
+|:---|:---|
+| **Frontend** | React 18.3, Vite 5.4, React Router, `ErrorBoundary`, `ProtectedRoute` |
+| **Backend** | Node.js 18+, Express 4.21, JWT, bcryptjs |
+| **Database** | MongoDB (local or Atlas) with Mongoose schemas |
+| **Testing** | End-to-end integration suite (`backend/scripts/testSuite.js`) and Postman collection |
+| **Deploy configs** | `frontend/vercel.json` and Render-ready `backend/server.js` |
+
+---
 
 ## ✦ REST API Reference
 
-The Express backend provides clean, RESTful endpoints protected by JWT and role authorization middleware:
-
 | Module | Method | Endpoint | Access | Description |
-|:---|:---|:---|:---|:---|
-| **Auth** | `POST` | `/api/auth/register` | Public | Register user & generate 3 distinct real-time codes |
-| **Auth** | `POST` | `/api/auth/verify-code` | Public | Verify code & promote to Guest, Manager, or Admin |
-| **Auth** | `POST` | `/api/auth/resend-code` | Public | Regenerate and return 3 new distinct codes |
-| **Auth** | `POST` | `/api/auth/login` | Public | Authenticate user & issue signed Bearer JWT |
-| **Auth** | `GET` | `/api/auth/me` | Authenticated | Retrieve authenticated user profile |
-| **Staff** | `GET` | `/api/staff` | Manager, Admin | Fetch hotel staff records roster |
-| **Staff** | `POST` | `/api/staff` | Manager, Admin | Create a new staff member |
-| **Staff** | `PUT` | `/api/staff/:id` | Manager, Admin | Update staff details, shift, or salary |
-| **Staff** | `PATCH` | `/api/staff/:id/status` | Manager, Admin | Toggle active/leave status |
-| **Staff** | `DELETE` | `/api/staff/:id` | Manager, Admin | Remove staff member from roster |
-| **Hotels** | `GET` | `/api/hotels` | Public | List 84 hotels with multi-variable filtering |
-| **Hotels** | `GET` | `/api/hotels/:id` | Public | Retrieve single hotel profile & room details |
-| **Hotels** | `POST` | `/api/hotels` | Admin | Create a new hotel property listing |
-| **Hotels** | `PUT` | `/api/hotels/:id` | Admin | Update hotel property details |
-| **Hotels** | `DELETE` | `/api/hotels/:id` | Admin | Soft-delete hotel property |
-| **Bookings**| `POST` | `/api/bookings` | Authenticated | Create reservation with strict capacity check |
-| **Bookings**| `GET` | `/api/bookings/my` | Authenticated | Fetch active user's reservation history |
-| **Bookings**| `GET` | `/api/bookings/verify/:ref`| Public | Digital verification of booking reference |
-| **Bookings**| `PUT` | `/api/bookings/:id/modify`| Authenticated | Modify reservation dates and room count |
-| **Bookings**| `PATCH`| `/api/bookings/:id/cancel`| Authenticated | Cancel reservation with mandatory audit reason |
-| **Admin** | `GET` | `/api/admin/metrics` | Admin | MongoDB executive aggregations & KPI stats |
-| **Admin** | `GET` | `/api/admin/users` | Admin | Retrieve user governance directory |
-| **Admin** | `PATCH`| `/api/admin/users/:id/role`| Admin | Promote or demote user role |
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0b0e,50:D4AF37,100:0b0b0e&height=3" width="100%" alt="" />
-
-## ✦ Evaluator Quick Start
-
-### Prerequisites
-- **Node.js**: v18.0.0 or higher
-- **MongoDB**: Local MongoDB community service (`mongodb://127.0.0.1:27017`) or a MongoDB Atlas URI
+|:---|:---:|:---|:---|:---|
+| **Auth** | `POST` | `/api/auth/register` | Public | Register and generate 3 distinct codes |
+| **Auth** | `POST` | `/api/auth/verify-code` | Public | Verify code and promote to Guest, Manager or Admin |
+| **Auth** | `POST` | `/api/auth/resend-code` | Public | Regenerate 3 new distinct codes |
+| **Auth** | `POST` | `/api/auth/login` | Public | Authenticate and issue Bearer JWT |
+| **Auth** | `GET` | `/api/auth/me` | Authenticated | Current user profile |
+| **Hotels** | `GET` | `/api/hotels` | Public | List hotels with multi-variable filters |
+| **Hotels** | `GET` | `/api/hotels/:id` | Public | Single hotel and room details |
+| **Hotels** | `POST` | `/api/hotels` | Admin | Create a hotel |
+| **Hotels** | `PUT` | `/api/hotels/:id` | Admin | Update a hotel |
+| **Hotels** | `DELETE` | `/api/hotels/:id` | Admin | Soft-delete a hotel |
+| **Bookings** | `POST` | `/api/bookings` | Authenticated | Create reservation with capacity check |
+| **Bookings** | `GET` | `/api/bookings/my` | Authenticated | Reservation history |
+| **Bookings** | `GET` | `/api/bookings/verify/:ref` | Public | Verify a booking reference |
+| **Bookings** | `PUT` | `/api/bookings/:id/modify` | Authenticated | Modify dates / rooms |
+| **Bookings** | `PATCH` | `/api/bookings/:id/cancel` | Authenticated | Cancel with mandatory reason |
+| **Staff** | `GET` | `/api/staff` | Manager, Admin | Staff roster |
+| **Staff** | `POST` | `/api/staff` | Manager, Admin | Add staff member |
+| **Staff** | `PUT` | `/api/staff/:id` | Manager, Admin | Update details, shift or salary |
+| **Staff** | `PATCH` | `/api/staff/:id/status` | Manager, Admin | Toggle Active / On Leave |
+| **Staff** | `DELETE` | `/api/staff/:id` | Manager, Admin | Remove staff member |
+| **Admin** | `GET` | `/api/admin/dashboard` | Admin | MongoDB aggregation KPIs |
+| **Admin** | `GET` | `/api/admin/users` | Admin | User governance directory |
+| **Admin** | `PATCH` | `/api/admin/users/:id/role` | Admin | Promote or demote a user |
 
 ---
 
-### Step 1 · Clone Repository
+## ✦ Quick Start
+
+**Prerequisites:** Node.js ≥ 18 and MongoDB (local `mongodb://127.0.0.1:27017` or an Atlas URI).
+
+### 1 · Clone
 
 ```bash
 git clone https://github.com/Dhruvi-tech/Staywise-Hotel-Booking.git
 cd Staywise-Hotel-Booking
 ```
 
----
-
-### Step 2 · Backend Setup & Seeding
+### 2 · Backend
 
 ```bash
 cd backend
 npm install
-
-# Configure environment variables
 cp .env.example .env
 ```
 
-Ensure `backend/.env` contains:
+`backend/.env`
 ```env
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/staywise_db
-JWT_SECRET=staywise_super_secure_jwt_secret_key_2026_cie3_edition
+JWT_SECRET=<your-long-random-secret>
 CLIENT_URL=http://localhost:3000
 ```
 
-Seed the database with all 84 luxury hotels and evaluator accounts:
 ```bash
-# 1. Migrate 84 curated hotels idempotently
-npm run seed:hotels
-
-# 2. Seed Administrator, Hotel Manager, Guest accounts & Staff Roster
-npm run seed:admin
+npm run seed:hotels    # 84 curated hotels (idempotent)
+npm run seed:admin     # admin, manager, guest accounts + staff roster
+npm start              # http://localhost:5000  ·  health: /api/health
 ```
 
-Start the Backend API Server:
-```bash
-npm start
-# ➜ Express Server running on http://localhost:5000
-# ➜ Health check: http://localhost:5000/api/health
-```
+### 3 · Frontend (new terminal)
 
----
-
-### Step 3 · Frontend Setup & Launch
-
-Open a second terminal:
 ```bash
 cd frontend
 npm install
-
-# Configure environment variables
 cp .env.example .env
 ```
 
-Ensure `frontend/.env` contains:
+`frontend/.env`
 ```env
 VITE_API_BASE_URL=http://localhost:5000/api
 ```
 
-Start the Vite Development Server:
 ```bash
-npm run dev
-# ➜ Frontend accessible at http://localhost:3000
+npm run dev            # http://localhost:3000
 ```
+
+### 🔑 1-Click Evaluator Sign-In
+
+Use the **1-Click Demo** buttons on `/login`, or sign in manually:
+
+| Role | Email | Password | Portal | What to evaluate |
+|:---|:---|:---|:---:|:---|
+| 🛡️ **Administrator** | `admin@staywise.com` | `Admin@123456` | `/admin` | Aggregations, hotel CRUD, user governance |
+| 🏨 **Hotel Manager** | `manager@staywise.com` | `Manager@123456` | `/manager` | Staff roster CRUD, shift toggles, managed stays |
+| 👤 **Guest Traveler** | `guest@staywise.com` | `Guest@123456` | `/` | 84 stays, compare, live booking, passes |
+
+> 💡 Or open `/register` and click **⚡ Demo Sign Up** to see the 3-code system live.
+>
+> ⚠️ These are demo credentials for evaluation only. Use a strong, private `JWT_SECRET` and change all passwords in any real deployment.
 
 ---
 
-### 🔑 Instant 1-Click Evaluator Sign-In
-
-For rapid grading, click any of the **1-Click Demo** buttons on `http://localhost:3000/login`:
-
-| Role | Pre-Seeded Email | Password | Direct Portal | Key Features to Evaluate |
-|:---|:---|:---|:---|:---|
-| **Administrator** | `admin@staywise.com` | `Admin@123456` | `/admin` | MongoDB aggregations, hotel CRUD, user governance |
-| **Hotel Manager** | `manager@staywise.com` | `Manager@123456` | `/manager` | Staff roster CRUD, shift toggles, managed stays |
-| **Guest Traveler** | `guest@staywise.com` | `Guest@123456` | `/` | 84 stays, 3-hotel compare, live booking, tickets |
-
-*Or test the dynamic registration at `http://localhost:3000/register` to experience the real-time 3-code generation and 1-click role activation!*
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0b0e,50:D4AF37,100:0b0b0e&height=3" width="100%" alt="" />
-
-## ✦ Automated Test Suite (24/24 Passing)
-
-The project includes an automated end-to-end integration test runner validating all core requirements:
+## ✦ Automated Test Suite
 
 ```bash
 cd backend
 npm test
 ```
 
-### Test Execution Summary
+<details>
+<summary><b>▶ Expand full execution summary (24 / 24 passing)</b></summary>
+
 ```text
 ==================================================
  STAYWISE CIE-3 COMPREHENSIVE TEST SUITE EXECUTION
@@ -362,35 +336,43 @@ npm test
   ✓ PASS: TC16: Create New Hotel Property (Admin RBAC)
 
 --- 4. Booking REST APIs ---
-  ✓ PASS: TC17: Create Valid Reservation (Subtotal + ₹500 fee calculated on DB price)
+  ✓ PASS: TC17: Create Valid Reservation (Subtotal + ₹500 fee on DB price)
   ✓ PASS: TC18: Reject Over-Capacity Reservation with 400 (4 adults in 1 room)
   ✓ PASS: TC19: Fetch User Bookings (GET /api/bookings/my)
-  ✓ PASS: TC20: Modify Reservation Dates & Rooms (PUT /api/bookings/:id/modify)
+  ✓ PASS: TC20: Modify Reservation Dates & Rooms
   ✓ PASS: TC21: Public Digital Verification of Booking Reference
-  ✓ PASS: TC22: Cancel Reservation with Reason (PATCH /api/bookings/:id/cancel)
+  ✓ PASS: TC22: Cancel Reservation with Reason
 
 --- 5. Admin Dashboard & Notifications ---
   ✓ PASS: TC23: Executive Dashboard MongoDB Aggregations
   ✓ PASS: TC24: Retrieve User In-App Notifications
 
 ==================================================
- TOTAL TESTS RUN: 24
- PASSED:         24
- FAILED:         0
- SUCCESS RATE:   100%
+ TOTAL: 24   PASSED: 24   FAILED: 0   SUCCESS RATE: 100%
 ==================================================
 ```
 
+</details>
+
+📮 **Postman:** import `staywise_postman_collection.json` to run all 24 cases with preconfigured variables, token extraction and assertions.
+
 ---
 
-### 📮 Postman Collection
-Import `staywise_postman_collection.json` into Postman to execute all 24 test cases with pre-configured environment variables, dynamic token extraction, and assertions.
+## ✦ Demo Walkthrough (5 Flows)
+
+1. **Catalog & capacity guard:** `/hotels` → 4 adults, 1 room → see the warning → click `➕ Book 2 Rooms`
+2. **3-hotel comparison:** `/compare` → explain the Best Value formula
+3. **3-code verification:** `/register` → `⚡ Demo Sign Up` → click `🏨 Manager` → verify into the Manager Portal
+4. **Staff roster:** `/manager` → filter by department → toggle Active ⇄ On Leave
+5. **Test suite:** run `npm test` in `backend/` → 24/24 green
 
 <br />
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b0e,50:3a3220,100:D4AF37&height=140&section=footer&text=Find.%20Compare.%20Book.%20Stay.&fontColor=fbf8f2&fontSize=26&fontAlignY=65&animation=twinkling" width="100%" alt="" />
+### ✦ Find. Compare. Book. Stay. ✦
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b0e,50:3a3220,100:D4AF37&height=110&section=footer&animation=twinkling" width="100%" alt="" />
 
 <sub><b>StayWise</b> · CS3301 Full Stack Development (CIE-3)<br />Bespoke Editorial Luxury Hotel Discovery & Reservation Engine</sub>
 
