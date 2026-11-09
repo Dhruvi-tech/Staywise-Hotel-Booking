@@ -28,9 +28,11 @@ const BookingConfirmation = () => {
     }
   }, [booking]);
 
+  const bookingRef = booking?.bookingReference || booking?.id;
+
   const handleCopyId = () => {
-    if (booking && booking.id) {
-      navigator.clipboard.writeText(booking.id).then(() => {
+    if (bookingRef) {
+      navigator.clipboard.writeText(bookingRef).then(() => {
         setCopied(true);
         setTimeout(() => setCopied(false), 2500);
       });
@@ -87,7 +89,7 @@ const BookingConfirmation = () => {
             <div>
               <span className="ticket-label">Booking Reference ID</span>
               <div className="ticket-id-wrap" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <strong className="ticket-id-val">{booking.id}</strong>
+                <strong className="ticket-id-val">{bookingRef}</strong>
                 <button
                   type="button"
                   className="btn-copy-id"
@@ -162,7 +164,7 @@ const BookingConfirmation = () => {
         </div>
 
         {/* Action Buttons: View My Bookings, Print Receipt, Explore More */}
-        <div className="confirmation-buttons no-print">
+        <div className="confirmation-buttons no-print" style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', justifyContent: 'center' }}>
           <button
             type="button"
             className="btn btn-outline-primary btn-lg"
@@ -170,6 +172,9 @@ const BookingConfirmation = () => {
           >
             🖨️ Print / Save Receipt (PDF)
           </button>
+          <Link to={`/verify-booking?ref=${encodeURIComponent(bookingRef)}`} className="btn btn-outline btn-lg" style={{ border: '1px solid var(--accent-blue)', color: 'var(--accent-blue)' }}>
+            🔍 Verify Record
+          </Link>
           <Link to="/my-bookings" className="btn btn-primary btn-lg">
             View My Bookings
           </Link>

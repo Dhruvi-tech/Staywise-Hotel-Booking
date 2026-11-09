@@ -5,7 +5,16 @@ import Rating from '../components/Rating';
 import AmenityList from '../components/AmenityList';
 import Loading from '../components/Loading';
 import ErrorMessage from '../components/ErrorMessage';
-import { fetchHotelById } from '../utils/api';
+import {
+  fetchHotelById,
+  fetchHotelReviews,
+  createReview,
+  addToWishlist,
+  removeFromWishlist,
+  getWishlist,
+  recordRecentlyViewed
+} from '../utils/api';
+import { useAuth } from '../context/AuthContext';
 import { addToCompare, isInCompare, removeFromCompare } from '../utils/storage';
 import {
   getTodayString,
@@ -22,8 +31,20 @@ const HotelDetails = () => {
   const [hotel, setHotel] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { user, isAuthenticated } = useAuth();
   const [isCompared, setIsCompared] = useState(false);
   const [compareMessage, setCompareMessage] = useState('');
+
+  // Wishlist & Reviews state
+  const [isWishlisted, setIsWishlisted] = useState(false);
+  const [wishlistMessage, setWishlistMessage] = useState('');
+  const [reviews, setReviews] = useState([]);
+  const [reviewsLoading, setReviewsLoading] = useState(false);
+  const [reviewModalOpen, setReviewModalOpen] = useState(false);
+  const [reviewForm, setReviewForm] = useState({ rating: 5, title: '', comment: '' });
+  const [reviewSubmitting, setReviewSubmitting] = useState(false);
+  const [reviewError, setReviewError] = useState('');
+  const [reviewSuccess, setReviewSuccess] = useState('');
 
   // Starting Date & Days Calculator State
   const [startDate, setStartDate] = useState(getFutureDateString(1));
@@ -38,12 +59,88 @@ const HotelDetails = () => {
     try {
       const data = await fetchHotelById(id);
       setHotel(data);
-      setIsCompared(isInCompare(data.id));
+      setIsCompared(isInCompare(data.id || data.customId));
+
+      // Telemetry: record recently viewed
+      recordRecentlyViewed(data.customId || data._id);
+
+      // Check wishlist if user logged in
+      if (isAuthenticated) {
+        getWishlist().then((list) => {
+          const inList = list.some((item) => item.customId === data.customId || item._id === data._id);
+          setIsWishlisted(inList);
+        }).catch(() => {});
+      }
+
+      // Load reviews
+      loadReviews(data.customId || data._id);
     } catch (err) {
       console.error('Error fetching hotel details:', err);
-      setError('Unable to load hotels. Please try again.');
+      setError('Unable to load hotel details. Please try again.');
     } finally {
       setLoading(false);
+    }
+  };
+
+  const loadReviews = async (hotelIdentifier) => {
+    setReviewsLoading(true);
+    try {
+      const revs = await fetchHotelReviews(hotelIdentifier);
+      setReviews(revs || []);
+    } catch (e) {
+      // quiet fail
+    } finally {
+      setReviewsLoading(false);
+    }
+  };
+
+  const handleWishlistToggle = async () => {
+    if (!isAuthenticated) {
+      navigate('/login', { state: { from: { pathname: `/hotels/${id}` } } });
+      return;
+    }
+    const targetId = hotel.customId || hotel._id;
+    try {
+      if (isWishlisted) {
+        await removeFromWishlist(targetId);
+        setIsWishlisted(false);
+        setWishlistMessage('Removed from your wishlist.');
+      } else {
+        await addToWishlist(targetId);
+        setIsWishlisted(true);
+        setWishlistMessage('Saved to your wishlist! 💖');
+      }
+      setTimeout(() => setWishlistMessage(''), 2500);
+    } catch (err) {
+      setWishlistMessage(err.message || 'Action failed');
+      setTimeout(() => setWishlistMessage(''), 2500);
+    }
+  };
+
+  const handleReviewSubmit = async (e) => {
+    e.preventDefault();
+    setReviewSubmitting(true);
+    setReviewError('');
+    setReviewSuccess('');
+
+    try {
+      await createReview({
+        hotelId: hotel.customId || hotel._id,
+        rating: reviewForm.rating,
+        title: reviewForm.title,
+        comment: reviewForm.comment
+      });
+      setReviewSuccess('Thank you! Your verified review has been posted.');
+      setReviewForm({ rating: 5, title: '', comment: '' });
+      setTimeout(() => {
+        setReviewModalOpen(false);
+        setReviewSuccess('');
+        loadReviews(hotel.customId || hotel._id);
+      }, 1500);
+    } catch (err) {
+      setReviewError(err.message || 'Failed to submit review.');
+    } finally {
+      setReviewSubmitting(false);
     }
   };
 
@@ -220,6 +317,75 @@ const HotelDetails = () => {
                 <span style={{ fontSize: '0.78rem', color: '#64748b' }}>Confirmed immediately via StayWise REST reservation engine.</span>
               </div>
             </div>
+          </div>
+
+          {/* Verified Guest Reviews Section */}
+          <div className="details-card">
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem', flexWrap: 'wrap', gap: '0.75rem' }}>
+              <div>
+                <h2 className="card-section-title" style={{ marginBottom: '0.25rem' }}>Verified Guest Reviews</h2>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <span style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--accent-gold)' }}>★ {hotel.rating}</span>
+                  <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>({hotel.reviewsCount || reviews.length} verified experiences)</span>
+                </div>
+              </div>
+              <button
+                type="button"
+                className="btn btn-outline"
+                onClick={() => {
+                  if (!isAuthenticated) {
+                    navigate('/login', { state: { from: { pathname: `/hotels/${id}` } } });
+                    return;
+                  }
+                  setReviewModalOpen(true);
+                }}
+                style={{ fontSize: '0.85rem', padding: '0.5rem 1rem' }}
+              >
+                ✍️ Write a Review
+              </button>
+            </div>
+
+            {reviewsLoading ? (
+              <p style={{ color: 'var(--text-muted)', fontSize: '0.88rem' }}>Loading verified reviews...</p>
+            ) : reviews.length === 0 ? (
+              <div style={{ textAlign: 'center', padding: '2rem 1rem', background: 'var(--bg-subtle)', borderRadius: 'var(--radius-sm)' }}>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '0.75rem' }}>
+                  No guest reviews submitted yet for this property.
+                </p>
+                <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>
+                  Guests with confirmed stays can submit verified reviews.
+                </span>
+              </div>
+            ) : (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                {reviews.map((rev) => (
+                  <div key={rev._id} style={{ padding: '1rem', background: '#fff', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.35rem' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                        <strong style={{ fontSize: '0.9rem' }}>{rev.user?.name || 'Verified Traveler'}</strong>
+                        <span style={{ fontSize: '0.75rem', background: 'var(--emerald-light)', color: 'var(--emerald)', padding: '0.1rem 0.4rem', borderRadius: 'var(--radius-full)', fontWeight: 600 }}>
+                          ✓ Verified Stay
+                        </span>
+                      </div>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--accent-gold)', fontWeight: 700 }}>
+                        {'★'.repeat(rev.rating)}{'☆'.repeat(5 - rev.rating)}
+                      </span>
+                    </div>
+                    {rev.title && (
+                      <h4 style={{ fontSize: '0.92rem', fontWeight: 600, color: 'var(--text-main)', marginBottom: '0.25rem' }}>
+                        {rev.title}
+                      </h4>
+                    )}
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.5 }}>
+                      {rev.comment}
+                    </p>
+                    <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '0.35rem', display: 'block' }}>
+                      {new Date(rev.createdAt).toLocaleDateString('en-IN', { year: 'numeric', month: 'short', day: 'numeric' })}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 
@@ -453,9 +619,18 @@ const HotelDetails = () => {
                 {isCompared ? '✓ Added in Compare' : 'Add to Compare'}
               </button>
 
-              {compareMessage && (
+              <button
+                type="button"
+                className={`btn btn-block ${isWishlisted ? 'btn-primary' : 'btn-outline'}`}
+                onClick={handleWishlistToggle}
+                style={{ marginTop: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem' }}
+              >
+                {isWishlisted ? '💖 Saved in Wishlist' : '🤍 Save to Wishlist'}
+              </button>
+
+              {(compareMessage || wishlistMessage) && (
                 <div className="compare-toast-msg">
-                  {compareMessage}
+                  {wishlistMessage || compareMessage}
                 </div>
               )}
             </div>
@@ -474,6 +649,94 @@ const HotelDetails = () => {
           </div>
         </div>
       </div>
+
+      {/* Review Submission Modal */}
+      {reviewModalOpen && (
+        <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1200, padding: '1rem' }}>
+          <div className="card" style={{ maxWidth: '500px', width: '100%', background: '#fff', borderRadius: 'var(--radius-lg)', padding: '2rem', boxShadow: 'var(--shadow-floating)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem' }}>
+              <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.4rem' }}>Verified Stay Review</h3>
+              <button onClick={() => setReviewModalOpen(false)} style={{ background: 'none', border: 'none', fontSize: '1.2rem', cursor: 'pointer' }}>✕</button>
+            </div>
+
+            <p style={{ fontSize: '0.88rem', color: 'var(--text-secondary)', marginBottom: '1.25rem' }}>
+              Share your genuine feedback for <strong>{hotel.name}</strong>. Only verified reservation holders may submit.
+            </p>
+
+            {reviewError && (
+              <div style={{ background: 'var(--accent-rose-light)', color: 'var(--accent-rose)', padding: '0.75rem', borderRadius: 'var(--radius-xs)', marginBottom: '1rem', fontSize: '0.85rem' }}>
+                {reviewError}
+              </div>
+            )}
+
+            {reviewSuccess && (
+              <div style={{ background: 'var(--emerald-light)', color: 'var(--emerald)', padding: '0.75rem', borderRadius: 'var(--radius-xs)', marginBottom: '1rem', fontSize: '0.85rem' }}>
+                {reviewSuccess}
+              </div>
+            )}
+
+            <form onSubmit={handleReviewSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.15rem' }}>
+              <div>
+                <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, marginBottom: '0.35rem' }}>Rating</label>
+                <div style={{ display: 'flex', gap: '0.5rem' }}>
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <button
+                      key={star}
+                      type="button"
+                      onClick={() => setReviewForm({ ...reviewForm, rating: star })}
+                      style={{
+                        background: 'none',
+                        border: 'none',
+                        fontSize: '1.75rem',
+                        cursor: 'pointer',
+                        color: star <= reviewForm.rating ? 'var(--accent-gold)' : 'var(--border-strong)',
+                        padding: 0
+                      }}
+                    >
+                      ★
+                    </button>
+                  ))}
+                  <span style={{ alignSelf: 'center', marginLeft: '0.5rem', fontWeight: 600, fontSize: '0.9rem' }}>
+                    {reviewForm.rating} of 5 Stars
+                  </span>
+                </div>
+              </div>
+
+              <div>
+                <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, marginBottom: '0.35rem' }}>Headline (Optional)</label>
+                <input
+                  type="text"
+                  placeholder="e.g. Unforgettable sea view experience!"
+                  value={reviewForm.title}
+                  onChange={(e) => setReviewForm({ ...reviewForm, title: e.target.value })}
+                  style={{ width: '100%', padding: '0.65rem 0.85rem', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-strong)' }}
+                />
+              </div>
+
+              <div>
+                <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, marginBottom: '0.35rem' }}>Review Details *</label>
+                <textarea
+                  rows="4"
+                  required
+                  placeholder="Detail the hospitality, dining, comfort, and service..."
+                  value={reviewForm.comment}
+                  onChange={(e) => setReviewForm({ ...reviewForm, comment: e.target.value })}
+                  style={{ width: '100%', padding: '0.65rem 0.85rem', borderRadius: 'var(--radius-xs)', border: '1px solid var(--border-strong)', resize: 'vertical' }}
+                />
+              </div>
+
+              <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '0.75rem', marginTop: '0.75rem' }}>
+                <button type="button" onClick={() => setReviewModalOpen(false)} className="btn btn-outline" style={{ padding: '0.55rem 1rem' }}>
+                  Cancel
+                </button>
+                <button type="submit" disabled={reviewSubmitting} className="btn btn-primary" style={{ padding: '0.55rem 1.25rem' }}>
+                  {reviewSubmitting ? 'Submitting...' : 'Post Verified Review'}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

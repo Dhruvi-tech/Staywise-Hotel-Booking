@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import BookingSummary from './BookingSummary';
 import { createBooking } from '../utils/api';
+import { useAuth } from '../context/AuthContext';
 import {
   getTodayString,
   getFutureDateString,
@@ -25,10 +27,14 @@ const BookingForm = ({ hotel, initialStay, onBookingSuccess }) => {
     ? Math.max(0, Number(initialStay.children))
     : 0;
 
+  const { user, isAuthenticated } = useAuth();
+  const navigate = useNavigate();
+  const location = useLocation();
+
   // Form State
-  const [guestName, setGuestName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
+  const [guestName, setGuestName] = useState(user?.name || '');
+  const [email, setEmail] = useState(user?.email || '');
+  const [phone, setPhone] = useState(user?.phone || '');
   const [checkIn, setCheckIn] = useState(defaultCheckIn);
   const [durationDays, setDurationDays] = useState(defaultDays);
   const [checkOut, setCheckOut] = useState(defaultCheckOut);
@@ -38,6 +44,15 @@ const BookingForm = ({ hotel, initialStay, onBookingSuccess }) => {
 
   const [formError, setFormError] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Sync user details if user loads after mount
+  useEffect(() => {
+    if (user) {
+      if (!guestName && user.name) setGuestName(user.name);
+      if (!email && user.email) setEmail(user.email);
+      if (!phone && user.phone) setPhone(user.phone);
+    }
+  }, [user]);
 
   // Sync initial stay values if props change
   useEffect(() => {
@@ -152,12 +167,23 @@ const BookingForm = ({ hotel, initialStay, onBookingSuccess }) => {
       return;
     }
 
+    // Real-world authentication check: require authenticated traveler to reserve stay
+    if (!isAuthenticated) {
+      navigate('/login', {
+        state: {
+          from: location,
+          message: `Please sign in or create an account to finalize your reservation at ${hotel?.name || 'this property'}.`
+        }
+      });
+      return;
+    }
+
     setIsSubmitting(true);
     setFormError('');
 
     try {
       const payload = {
-        hotelId: hotel.id,
+        hotelId: hotel.customId || hotel.id || hotel._id,
         guestName: guestName.trim(),
         email: email.trim(),
         phone: phone.trim(),
@@ -208,6 +234,88 @@ const BookingForm = ({ hotel, initialStay, onBookingSuccess }) => {
         )}
 
         <form onSubmit={handleSubmit} className="booking-actual-form">
+          {/* Real-World Membership Verification Banner */}
+          {isAuthenticated ? (
+            <div
+              style={{
+                background: '#ecfdf5',
+                border: '1px solid #a7f3d0',
+                padding: '0.85rem 1rem',
+                borderRadius: 'var(--radius-sm)',
+                marginBottom: '1.25rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                flexWrap: 'wrap',
+                gap: '0.5rem'
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <span style={{ fontSize: '1.2rem', color: '#059669' }}>✓</span>
+                <div>
+                  <span style={{ fontWeight: 600, fontSize: '0.88rem', color: '#065f46' }}>
+                    Authenticated as {user?.name}
+                  </span>
+                  <span style={{ fontSize: '0.78rem', color: '#047857', display: 'block' }}>
+                    {user?.email} • Instant digital reservation certificate will be assigned to your account.
+                  </span>
+                </div>
+              </div>
+              <span
+                style={{
+                  fontSize: '0.72rem',
+                  background: '#d1fae5',
+                  color: '#065f46',
+                  padding: '0.2rem 0.55rem',
+                  borderRadius: 'var(--radius-full)',
+                  fontWeight: 700,
+                  letterSpacing: '0.04em'
+                }}
+              >
+                MEMBER RATE
+              </span>
+            </div>
+          ) : (
+            <div
+              style={{
+                background: '#fffbeb',
+                border: '1px solid #fde68a',
+                padding: '0.95rem 1rem',
+                borderRadius: 'var(--radius-sm)',
+                marginBottom: '1.25rem'
+              }}
+            >
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.75rem' }}>
+                <div>
+                  <div style={{ fontWeight: 600, fontSize: '0.88rem', color: '#92400e', display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                    <span>🔐</span> Sign in or create an account to finalize your booking
+                  </div>
+                  <span style={{ fontSize: '0.78rem', color: '#b45309', marginTop: '0.2rem', display: 'block' }}>
+                    Your stay will be linked to your verified profile with instant printable tax invoices.
+                  </span>
+                </div>
+                <div style={{ display: 'flex', gap: '0.5rem' }}>
+                  <Link
+                    to="/login"
+                    state={{ from: location, message: `Sign in to complete your reservation at ${hotel?.name}.` }}
+                    className="btn btn-primary"
+                    style={{ padding: '0.35rem 0.75rem', fontSize: '0.8rem' }}
+                  >
+                    Sign In
+                  </Link>
+                  <Link
+                    to="/register"
+                    state={{ from: location, message: `Create an account to complete your reservation at ${hotel?.name}.` }}
+                    className="btn btn-outline"
+                    style={{ padding: '0.35rem 0.75rem', fontSize: '0.8rem', background: '#fff' }}
+                  >
+                    Join Free
+                  </Link>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Guest Information Section */}
           <div className="form-section-title">
             <span>👤 Guest Information</span>
@@ -517,6 +625,8 @@ const BookingForm = ({ hotel, initialStay, onBookingSuccess }) => {
             >
               {isSubmitting
                 ? 'Confirming Reservation...'
+                : !isAuthenticated
+                ? '🔐 Sign In & Complete Reservation'
                 : isOverCapacity
                 ? `⚠️ Book ${requiredRooms} Rooms to Confirm (₹${suggestedBudget.toLocaleString('en-IN')})`
                 : `Confirm Booking for ${durationDays} ${durationDays === 1 ? 'Day' : 'Days'} (₹${totalBudget.toLocaleString('en-IN')})`}
